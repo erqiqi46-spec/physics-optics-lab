@@ -1,0 +1,19 @@
+import {optics,type Setup} from './physics';
+import {clipSegment,sourceHeight,traceRays,type Point2} from './rays';
+export default function RayDiagram({s,fan}:{s:Setup;fan:boolean}){
+ const p=optics(s),rays=traceRays(s,fan);const vx=s.lens+p.v;
+ const left=!p.real&&!p.infinity?Math.min(0,Math.max(-45,vx-7)):0,right=p.real&&vx<145?Math.max(100,vx+7):100;
+ const height=Math.min(32,Math.max(12,Math.abs(p.m??0)*sourceHeight*1.25)),px=(x:number)=>36+(x-left)/(right-left)*728,py=(y:number)=>137-y/height*99;
+ const segment=(a:Point2,b:Point2,color:string,dashed=false,principal=true,id='')=>{const q=clipSegment([a,b],{left,right,bottom:-height,top:height});if(!q)return null;return <line key={id} data-ray={id} x1={px(q[0][0])} y1={py(q[0][1])} x2={px(q[1][0])} y2={py(q[1][1])} stroke={color} strokeWidth={principal?2.2:1} opacity={principal?1:.3} strokeDasharray={dashed?'6 5':undefined} markerEnd={!dashed&&principal?'url(#ray-arrow-'+color.slice(1)+')':undefined}/>};
+ const imageVisible=Number.isFinite(p.v)&&vx>=left&&vx<=right&&Math.abs(p.m!*sourceHeight)<height;
+ return <div className="ray-diagram" data-testid="ray-diagram"><div className="diagram-heading"><strong>光路侧视图 <span>随器材位置实时计算</span></strong><span>{p.infinity?'出射光互相平行':p.real?'折射光会聚 → 倒立实像':'折射光发散 → 反向延长线形成正立虚像'}</span></div><svg viewBox="0 0 800 266" role="img" aria-label={`实时光路：物距${p.u.toFixed(1)}厘米，${p.kind}。实线为实际传播光线，虚线为反向延长线。`}>
+ <defs>{['ffbf69','68eee4','c0a2ff'].map(c=><marker key={c} id={'ray-arrow-'+c} markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7,3.5 L0,7Z" fill={'#'+c}/></marker>)}</defs>
+ <line x1="25" y1={py(0)} x2="776" y2={py(0)} stroke="#537283" strokeDasharray="3 5"/><text x="762" y={py(0)+16} fill="#7592a3" fontSize="10">主光轴</text>
+ {[-2,-1,1,2].map(n=>{const x=s.lens+n*s.f;return x>=left&&x<=right&&<g key={n}><circle cx={px(x)} cy={py(0)} r="3" fill="#85d2c3"/><text x={px(x)} y={py(0)+22} textAnchor="middle" fill="#83b6af" fontSize="11">{Math.abs(n)===2?'2F':'F'}{n>0?'′':''}</text></g>})}
+ {rays.map(r=><g key={r.id}>{segment(...r.incident,r.color,false,r.principal,`${r.id}-in`)}{segment(...r.outgoing,r.color,false,r.principal,`${r.id}-out`)}{r.extension&&segment(...r.extension,r.color,true,r.principal,`${r.id}-virtual`)}</g>)}
+ <path d={`M${px(s.lens)},${py(9)} Q${px(s.lens)-12},${py(0)} ${px(s.lens)},${py(-9)} Q${px(s.lens)+12},${py(0)} ${px(s.lens)},${py(9)}`} fill="#79cbd51a" stroke="#8fdae0" strokeWidth="2"/>
+ <text x={px(s.lens)} y="22" textAnchor="middle" fill="#9adce2" fontSize="11">凸透镜</text><line x1={px(s.screen)} y1={py(11)} x2={px(s.screen)} y2={py(-11)} stroke="#d2e4ef" strokeWidth="4"/><text x={px(s.screen)} y="251" textAnchor="middle" fill="#a6c0ce" fontSize="11">光屏 {s.screen.toFixed(1)} cm</text>
+ <path d={`M${px(s.object)},${py(0)} V${py(sourceHeight)} m-5,6 l5,-6 l5,6`} fill="none" stroke="#ffe1a1" strokeWidth="3"/><text x={px(s.object)} y="22" textAnchor="middle" fill="#e2c48b" fontSize="11">物体</text>
+ {imageVisible&&<g><path d={`M${px(vx)},${py(0)} V${py(p.m!*sourceHeight)} m-5,${p.real?-6:6} l5,${p.real?6:-6} l5,${p.real?-6:6}`} fill="none" stroke={p.real?'#f1f7f7':'#d0b1ff'} strokeWidth="3" strokeDasharray={p.real?undefined:'4 3'}/><circle cx={px(vx)} cy={py(p.m!*sourceHeight)} r="5" fill="none" stroke="#eff8ee"/><text x={px(vx)} y={Math.max(35,Math.min(230,py(p.m!*sourceHeight)+(p.real?23:-15)))} textAnchor="middle" fill="#c5dfdb" fontSize="11">{p.real?'理论实像':'虚像'} · v={p.v.toFixed(1)} cm</text></g>}
+ </svg><p>{p.infinity?'物体在焦点上：平行出射的光线不会在有限距离会聚，移动光屏也不能成清晰实像。':p.real?`物距 u=${p.u.toFixed(1)} cm → 理论像距 v=${p.v.toFixed(1)} cm。${s.lens+p.v>s.screen+.4?'当前光屏提前截住了光，实际光线在屏处终止；图示箭头只标理论像点。':p.focused?'光屏正好位于会聚处。':'屏面离开会聚处，同一物点的光束落在不同位置，形成模糊光斑。'}`:'虚线只是数学反向延长线，没有光沿虚线倒着传播；光屏不能承接虚像。'}{!p.infinity&&!imageVisible?' 像点超出当前图示范围，数值仍由薄透镜公式计算。':''}</p></div>
+}

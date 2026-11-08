@@ -1,42 +1,38 @@
-# Stage 01 自动化验收报告
+# Stage 01 v1.1 自动化验收报告
 
-执行日期：2026-11-08。环境：Linux、Node.js、Vite、Vitest、Playwright Chromium。浏览器使用 SwiftShader 软件 WebGL 渲染。
+执行日期：2026-11-08。环境：Linux、Node.js、Vite、Vitest、Playwright Chromium；浏览器使用 SwiftShader 软件 WebGL 渲染。
 
-## 结果
+## 最终结果
 
-- TypeScript 检查与 Vite 生产构建：通过。
-- Vitest：11 / 11 通过；0 失败。
-- Playwright：4 / 4 通过；0 失败，0 跳过。
-- 桌面端流程中捕获的页面运行异常：0。
+- TypeScript 与 Vite 生产构建：通过。
+- Vitest：23 / 23 通过，0 失败。
+- Playwright：6 / 6 通过，0 失败、0 跳过。
+- 题库反馈微调后，额外复跑“十五道易错题、解析、错题复习、进度保留与弹窗层级”通过，确认答错题不会提示“回答正确”。
 
-## 科学单元测试
+## 科学与交互验收
 
-五组 u<f、u=f、f<u<2f、u=2f、u>2f；有限像薄透镜等式与放大率；焦点两侧符号与无穷趋势；光屏离焦增加；虚像及焦点对多个屏位均不能承接；三器材轨道间隔与边界；焦距限制；五类教学预设。
+原有 11 项测试涵盖五类成像、公式残差、放大率、焦点两侧符号、离焦和轨道约束。新增 12 项测试验证同一物点的各条折射光直线与理论像点一致；u=f 时的倾斜平行出射光；仅虚像显示反向延长线；实线在光屏终止；移动物体改变折射方向；第三主光线受镜片孔径限制；几何裁切不改变理论光路。
 
-## 浏览器端到端验收
+浏览器端到端覆盖：
 
-1. 1440×1080：初始清晰实像 → 离焦模糊 → 自动对焦；遍历全部五类情境；虚像及焦点状态不能自动对焦；记录五组数据；数据表、CSV 下载；刷新恢复；器材重置；课堂自测；自主模式切换。
-2. 390×844：触控模拟上下文，键盘方向键调整焦距，触摸重置与记录；断言页面无横向溢出。
-3. 真实鼠标事件拖动三维凸透镜底座，验证位置改变、器材间距满足约束，并检查固定光屏的屏幕位置不变，确认镜头未随拖拽旋转。
-4. Chromium CDP touchStart / touchMove / touchEnd 直接拖动三维凸透镜底座，验证数值同步变化。
+1. 原有完整实验流程、五类情境、离焦与对焦、记录持久化、CSV、重置与模式切换。
+2. 390×844 的窄屏键盘和触摸操作，无横向溢出。
+3. 鼠标直接拖动三维器材，镜头不随之转动，器材满足轨道约束。
+4. Chromium CDP touchStart / touchMove / touchEnd 直接拖动器材。
+5. 物体移动使侧视图中心光线端点实时变化；焦点处平行、焦内虚线、显示/隐藏光路切换。
+6. 全部 15 道题逐题作答（刻意答错 1 题）：统计 14/15，检查每题解析与易错提示、筛选错题、返回对应实验、重新进入后保留进度、重新作答和 Escape 关闭；检查弹窗位置最上层元素属于弹窗。
 
-## 验收过程中的修正
+## 截图与机器证据
 
-- 首轮软件渲染测试超时：将 3D 场景改为按需渲染，并为接触阴影限制采样帧；最终重新运行通过。
-- 初轮触控窄屏发现标签可能产生横向溢出：增加视口裁切。
-- 截图人工复核发现窄屏镜头裁掉发光物体：加入画布比例自适应初始镜头，并移除手机侧边栏以增加操作面积，重新测试。
-- 初轮拖拽脚本使用文字标签推算点击点而未命中底座：改为由底座空间锚点投影定位，使用真实鼠标/触摸事件复验；没有通过直接调用状态函数绕过三维交互。
+- `evidence/unit-results.json`：23 项科学测试。
+- `evidence/browser-results.json`：完整 6 组浏览器测试结果。
+- `evidence/build.log`：最新生产构建日志。
+- `evidence/offline-v1.1-check.json`：禁用全部外部 HTTP(S) 请求后，直接从本机 HTML 打开；光路随物体变化且 15 道题正常显示。
+- `evidence/01-focused-desktop.png` ～ `05-mobile-touch.png`：完整实验与窄屏过程。
+- `evidence/06-live-rays-virtual.png`：实时虚像光路。
+- `evidence/07-mistake-review.png`：错题复习与弹窗层级修复。
+- `evidence/sample-records.csv`：实际导出的五组记录。
 
-## 证据
+首轮在 60 秒测试总限时下有截图步骤超时，其余功能断言通过；软件 WebGL 下扩大的画布与多步截图需要更长时间。最终将端到端总限时调整为 120 秒，保持原断言和单线程执行，完整重跑 6 组通过。此结果不代表真机帧率基准。
 
-- `evidence/unit-results.json`：Vitest 机器可读结果。
-- `evidence/browser-results.json`：Playwright 机器可读结果及耗时。
-- `evidence/build.log`：最终构建日志。生产 JS 约 1.3 MB、gzip 约 376 KB；Vite 有分包尺寸提示，非构建失败。
-- `evidence/01-focused-desktop.png`：倒立等大实像与实验控制面板。
-- `evidence/02-defocused.png`：同一物体在离焦光屏上的模糊像。
-- `evidence/03-virtual-image.png`：正立放大虚像与空白光屏。
-- `evidence/04-data-table.png`：五组实验记录。
-- `evidence/05-mobile-touch.png`：窄屏触摸界面。
-- `evidence/sample-records.csv`：浏览器实际导出的五组记录。
-
-未验证：真实硬件触摸、多点缩放、Safari/Firefox、GPU 性能、全站辅助技术兼容性。截图和程序化资产的完成度不等于最终美术验收通过，具体见 `LIMITATIONS.md`。
+未验证真实 Windows 设备、真实多点触摸、Safari/Firefox 和 GPU 性能。器材仍为临时程序化资产，不宣称最终电影级品质。详见 `LIMITATIONS.md`。

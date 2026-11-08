@@ -2,11 +2,11 @@
   "config": {
     "argv": [
       "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
-      "/workspace/work/optics/node_modules/.bin/playwright",
+      "/workspace/work/github-publish/node_modules/.bin/playwright",
       "test"
     ],
-    "configFile": "/workspace/work/optics/playwright.config.ts",
-    "rootDir": "/workspace/work/optics/tests",
+    "configFile": "/workspace/work/github-publish/playwright.config.ts",
+    "rootDir": "/workspace/work/github-publish/tests",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": false,
@@ -22,7 +22,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "/workspace/work/optics/test-results",
+        "outputDir": "/workspace/work/github-publish/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -30,30 +30,30 @@
         },
         "id": "",
         "name": "",
-        "testDir": "/workspace/work/optics/tests",
+        "testDir": "/workspace/work/github-publish/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 60000
+        "timeout": 120000
       }
     ],
     "filteredProjects": [
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "/workspace/work/optics/test-results",
+        "outputDir": "/workspace/work/github-publish/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
           "actualWorkers": 1
         },
         "name": "",
-        "testDir": "/workspace/work/optics/tests",
-        "snapshotDir": "/workspace/work/optics/tests",
+        "testDir": "/workspace/work/github-publish/tests",
+        "snapshotDir": "/workspace/work/github-publish/tests",
         "testIgnore": [],
         "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
-        "timeout": 60000,
+        "timeout": 120000,
         "use": {
           "baseURL": "http://localhost:5173",
           "headless": true,
@@ -113,7 +113,7 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 60000,
+              "timeout": 120000,
               "annotations": [],
               "expectedStatus": "passed",
               "projectId": "",
@@ -123,12 +123,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 43710,
+                  "duration": 36086,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T08:43:15.641Z",
+                  "startTime": "2026-11-08T09:49:49.219Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -147,7 +147,7 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 60000,
+              "timeout": 120000,
               "annotations": [],
               "expectedStatus": "passed",
               "projectId": "",
@@ -157,12 +157,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 17989,
+                  "duration": 19579,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T08:43:59.516Z",
+                  "startTime": "2026-11-08T09:50:25.635Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -181,7 +181,7 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 60000,
+              "timeout": 120000,
               "annotations": [],
               "expectedStatus": "passed",
               "projectId": "",
@@ -191,12 +191,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6369,
+                  "duration": 5965,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T08:44:17.525Z",
+                  "startTime": "2026-11-08T09:50:45.239Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -215,7 +215,7 @@
           "tags": [],
           "tests": [
             {
-              "timeout": 60000,
+              "timeout": 120000,
               "annotations": [],
               "expectedStatus": "passed",
               "projectId": "",
@@ -225,12 +225,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 17697,
+                  "duration": 21794,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T08:44:24.042Z",
+                  "startTime": "2026-11-08T09:50:51.240Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -244,13 +244,89 @@
           "column": 1
         }
       ]
+    },
+    {
+      "title": "learning.spec.ts",
+      "file": "learning.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "光路随物体移动、焦点平行与虚像延长线实时切换",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22819,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T09:51:13.090Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0ec79b0c4f511f16424-6db098f593a778350d3e",
+          "file": "learning.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "十五道易错题、解析、错题复习、进度保留与弹窗层级",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 27048,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T09:51:35.958Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0ec79b0c4f511f16424-dbd365fa0b0fc7b4d7b7",
+          "file": "learning.spec.ts",
+          "line": 8,
+          "column": 1
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-08T08:43:15.067Z",
-    "duration": 96397.333,
-    "expected": 4,
+    "startTime": "2026-11-08T09:49:48.248Z",
+    "duration": 136421.671,
+    "expected": 6,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

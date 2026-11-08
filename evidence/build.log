@@ -1,18 +1,22 @@
 
+> optics-lab-stage01@1.0.0 build:standalone
+> npm run build && node scripts/build-standalone.mjs
+
+
 > optics-lab-stage01@1.0.0 build
 > tsc -b && vite build
 
 vite v7.3.7 building client environment for production...
 transforming...
-✓ 2142 modules transformed.
+✓ 2146 modules transformed.
 rendering chunks...
 computing gzip size...
 dist/index.html                     0.38 kB │ gzip:   0.31 kB
-dist/assets/index-C2BAqpv7.css     15.16 kB │ gzip:   4.38 kB
-dist/assets/index-Blq73Noo.js   1,303.12 kB │ gzip: 376.44 kB
+dist/assets/index-Zc3OjfhT.css     19.78 kB │ gzip:   5.34 kB
+dist/assets/index-qj4MFV1K.js   1,344.39 kB │ gzip: 402.67 kB
 
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
-✓ built in 9.61s
+✓ built in 9.84s

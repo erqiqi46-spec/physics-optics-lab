@@ -9,7 +9,7 @@ test('完整实验流程：成像、离焦、五情境、记录、导出及重�
  const download=page.waitForEvent('download');await page.getByRole('button',{name:'导出 CSV'}).click();await (await download).saveAs('evidence/sample-records.csv');
  await page.reload();await page.getByRole('button',{name:'查看数据',exact:false}).click();await expect(page.locator('.data-panel tbody tr')).toHaveCount(5);
  await page.getByRole('button',{name:'重置实验',exact:true}).click();await expect(page.getByRole('spinbutton',{name:'发光物体位置数值'})).toHaveValue('15');await expect(page.getByTestId('screen-status')).toHaveText('光屏成像清晰');
- await page.getByRole('button',{name:'实验总结与自测'}).click();await page.getByRole('button',{name:'不可以',exact:true}).click();await expect(page.locator('.feedback')).toContainText('回答正确');await page.getByRole('button',{name:'返回实验'}).click();
+ await page.getByRole('button',{name:'实验总结与自测'}).click();await page.getByRole('button',{name:/不可以$/}).click();await expect(page.locator('.feedback')).toContainText('回答正确');await page.getByRole('button',{name:'返回实验'}).click();
  await page.getByRole('button',{name:'自主实验',exact:false}).click();await expect(page.getByText('自主探究',{exact:true})).toBeVisible();expect(errors).toEqual([]);
 });
 test('键盘调节和窄屏触控操作',async({browser})=>{
