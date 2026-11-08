@@ -1,0 +1,3 @@
+import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
+const files=await readdir('dist/assets');const js=(await readFile('dist/assets/'+files.find(n=>n.endsWith('.js')),'utf8')).replaceAll('</script','<\\/script');const css=await readFile('dist/assets/'+files.find(n=>n.endsWith('.css')),'utf8');
+await mkdir('docs',{recursive:true});await writeFile('docs/index.html',`<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>凸透镜成像 · 互动实验室</title><style>${css}</style></head><body><div id="root"></div><script type="module">${js}</script></body></html>`);await writeFile('docs/.nojekyll','');

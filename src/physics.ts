@@ -1,0 +1,4 @@
+export type Setup={object:number;lens:number;screen:number;f:number};
+export const initial:Setup={object:15,lens:45,screen:75,f:15};
+export function optics(s:Setup){const u=s.lens-s.object,d=s.screen-s.lens;const infinity=Math.abs(u-s.f)<1e-7;const v=infinity?Infinity:s.f*u/(u-s.f);const m=infinity?null:-v/u;const real=u>s.f+1e-7;const blur=real?Math.abs(1-d/v)*1.6:Infinity;return {u,d,v,m,real,infinity,blur,focused:real&&blur<0.025,kind:infinity?'不成有限像':real?'倒立实像':'正立虚像',size:infinity?'—':Math.abs(m!)>1.001?'放大':Math.abs(m!)<.999?'缩小':'等大'};}
+export function constrain(s:Setup,key:keyof Setup,value:number):Setup{const n={...s};n[key]=Math.round(value*10)/10;if(key==='object')n.object=Math.max(0,Math.min(n.lens-2,n.object));if(key==='lens')n.lens=Math.max(n.object+2,Math.min(n.screen-2,n.lens));if(key==='screen')n.screen=Math.max(n.lens+2,Math.min(100,n.screen));if(key==='f')n.f=Math.max(5,Math.min(25,n.f));return n;}
