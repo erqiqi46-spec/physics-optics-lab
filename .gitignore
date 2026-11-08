@@ -2,3 +2,7 @@ node_modules
 dist/
 test-results/
 *.tsbuildinfo
+
+recordings/
+
+__pycache__/

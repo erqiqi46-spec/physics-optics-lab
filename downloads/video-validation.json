@@ -1,0 +1,32 @@
+{
+  "sourceVersion": "Stage 01 v1.2",
+  "source": "actual browser automation recording",
+  "recordingTakes": 2,
+  "codec": "h264",
+  "width": 1920,
+  "height": 1080,
+  "pixelFormat": "yuv420p",
+  "fps": "25/1",
+  "durationSeconds": 285.32,
+  "sizeBytes": 7414883,
+  "chapters": 24,
+  "embeddedChapters": 24,
+  "subtitles": "burned in and sidecar SRT",
+  "audio": "none; teacher narration script included",
+  "startupTrimSeconds": 5.2,
+  "browserErrors": [],
+  "externalRequests": [],
+  "passedChecks": [
+    "观察倍率改变未移动光屏",
+    "预测—观察—揭示完整执行，v=30 cm",
+    "屏距 d=40 cm 时 v 仍为 30 cm 且离焦",
+    "u=40,v=24，倒立缩小实像",
+    "u=22.5,v=45，倒立放大实像",
+    "u=f，平行出射，无有限实像",
+    "u<f，正立放大虚像，反向延长虚线",
+    "记录五类情形，坐标与距离分列",
+    "两道易错题，正确与错误解析均展示"
+  ],
+  "sha256": "5186bc6ac852b937154098ca36121171a89a4fc086d4b2f4f63e3727d07ee9b9",
+  "sourceHtmlSha256": "e823727e966f722ef8871cdc2c515baacd278d0868301de4dfee9717274adcff"
+}

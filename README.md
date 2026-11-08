@@ -13,6 +13,15 @@
 
 首个实验：探究凸透镜成像的规律。Three.js + React Three Fiber + React + TypeScript + Vite。
 
+## 教学演示 MP4 与同步口播稿
+
+- [下载 1080p 教学录屏 MP4](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-teaching-demo.mp4)：约 4 分 45 秒，24 段随操作切换的硬字幕，H.264、25 fps。此版本没有合成配音。
+- [下载可编辑 Word 口播稿](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/teaching-narration.docx)。
+- [下载讲稿、SRT、操作流程和脚本资料包](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/teaching-materials.zip)。
+- [自动化复现说明](automation/README.md)。视频录制的是实际页面操作，叠加鼠标、高亮及字幕；不使用静态图片代替交互。视频已嵌入字幕，不必再外挂 SRT。
+
+[![教学录屏预览](downloads/teaching-demo-poster.jpg)](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-teaching-demo.mp4)
+
 ## 本地运行
 
 需要 Node.js 22.12+（或 20.19+）。解压源码包后进入项目目录：
