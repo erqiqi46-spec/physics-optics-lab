@@ -102,6 +102,150 @@
   },
   "suites": [
     {
+      "title": "inquiry.spec.ts",
+      "file": "inquiry.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "默认先预测、保存观察后揭示；屏位变化不改变理论像距",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23590,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T10:31:01.686Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1dd9ea12cb0a7aca4d46-41e6910b6c686d5c603e",
+          "file": "inquiry.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "保存后改变屏位必须重新确认观察，不能用旧记录直接揭示",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25051,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T10:31:26.252Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1dd9ea12cb0a7aca4d46-22a077f6def8919e314a",
+          "file": "inquiry.spec.ts",
+          "line": 12,
+          "column": 1
+        },
+        {
+          "title": "放大光屏显示同尺度倒立图案、连续离焦和空白屏；观察倍率不移动仪器",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14101,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T10:31:51.325Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1dd9ea12cb0a7aca4d46-5b024c8365bd3f0df581",
+          "file": "inquiry.spec.ts",
+          "line": 16,
+          "column": 1
+        },
+        {
+          "title": "手机探究流程可完成，坐标、距离与观察窗口无横向溢出",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9765,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-08T10:32:05.447Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1dd9ea12cb0a7aca4d46-2fd691f5000c1639984b",
+          "file": "inquiry.spec.ts",
+          "line": 22,
+          "column": 1
+        }
+      ]
+    },
+    {
       "title": "lab.spec.ts",
       "file": "lab.spec.ts",
       "column": 0,
@@ -123,12 +267,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 36086,
+                  "duration": 31041,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T09:49:49.219Z",
+                  "startTime": "2026-11-08T10:32:15.258Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -157,12 +301,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 19579,
+                  "duration": 20346,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T09:50:25.635Z",
+                  "startTime": "2026-11-08T10:32:46.318Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -191,12 +335,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5965,
+                  "duration": 9796,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T09:50:45.239Z",
+                  "startTime": "2026-11-08T10:33:06.720Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -225,12 +369,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 21794,
+                  "duration": 20878,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T09:50:51.240Z",
+                  "startTime": "2026-11-08T10:33:16.547Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -267,12 +411,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 22819,
+                  "duration": 22310,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T09:51:13.090Z",
+                  "startTime": "2026-11-08T10:33:37.460Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -301,12 +445,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 27048,
+                  "duration": 25672,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-08T09:51:35.958Z",
+                  "startTime": "2026-11-08T10:33:59.805Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -324,9 +468,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-08T09:49:48.248Z",
-    "duration": 136421.671,
-    "expected": 6,
+    "startTime": "2026-11-08T10:31:00.481Z",
+    "duration": 207341.703,
+    "expected": 10,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

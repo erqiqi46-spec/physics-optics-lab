@@ -1,7 +1,7 @@
 # 初中物理 3D 互动实验室 · Stage 01
 
 - 在线发布：源码已准备在 `docs/`；仓库所有者需在 Settings → Pages 选择 Deploy from a branch、main、/docs 后保存。GitHub 当前授权不允许自动开启 Pages。启用后以设置页返回的实际网址为准。
-- 推荐离线下载：https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-offline-v1.1.zip（解压后双击 HTML）
+- 推荐离线下载：https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-offline-v1.2.zip（解压后双击 HTML）
 - 离线单文件：https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab.html
 - Windows 一键离线包：https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-windows-x64.zip
 
@@ -26,13 +26,19 @@ npm run dev
 
 ## 使用方法
 
-1. 拖动空白处旋转、滚轮或双指缩放；点击仪器选中并拖动底座、支架或本体，沿轨道移动。
-2. 右侧三个位置滑块或数值输入提供精确控制；u = 透镜位置 − 物体位置；d = 光屏位置 − 透镜位置。
-3. 调节焦距；观察加粗主光线、传播方向箭头、可切换的光束，以及同步侧视图、理论像距、成像性质和实际光屏。光屏与理论像点不重合时会离焦。
-4. “光屏移至理想像点”仅在实像且像点位于轨道内时启用。无法接收实像的情形不会在光屏贴出清晰像。
-5. 教师引导可切换五种物距情境；自主实验保持器材自由调整。虚像用透明正立 F 与虚线反向延长线表示，是教学辅助，非真实悬浮物体。
-6. 记录数据、展开数据表、导出 UTF-8 CSV；记录保存于当前浏览器 localStorage，重置器材保留记录，另有“清空记录”。
-7. 总结面板包含五类规律与 15 道易错自测题、答案解析、错题复习及进度统计。滑块支持方向键，所有按钮与数值输入支持键盘 Tab 操作。
+默认是“探究学习”：
+
+1. 读取轨道坐标 xₒ/xₗ/xₛ 与物距 u、实际屏距 d。侧视图标出测量区间，并显示坐标差算式，轨道位置不再与像距混用。
+2. 根据物距与焦距选择像的类型、方向、大小，提交预测。此前光屏有明确的教学遮盖，理论读数、辅助光线、自动对焦及总结关闭。
+3. 提交后查看光屏放大窗口，对比同尺度的物体 F 与实际屏面图案；手动移动光屏寻找清晰位置。1×/2×/3×仅放大观察，不改变器材或成像。
+4. 选择自己看到的现象，填写可选说明，保存观察。再点击“揭示理论并比较”，查看预测对照、理论像距与辅助光路。
+5. 保存后改变屏位或观察说明，需要重新保存；改变物体、透镜或焦距会重开一轮预测。已揭示后调屏只改变屏面清晰度，不改变理论像距。
+6. 教师可选择“直接演示”，直接查看理论与光线；学生自主模式使用探究流程。教师切换五类情境时，探究模式使用待手调的屏位，直接演示使用原有预设。
+7. 实验数据表及 CSV 分列保存坐标、u/d/f、预测、自述观察和理论。未揭示观察记录不导出理论答案，揭示后补充，同光学条件下的原始观察保留。
+8. 总结包含五类规律和 15 道易错题，支持解析、错题复习与观察跳转。滑块支持方向键，按钮、下拉框与输入均可用键盘操作。
+9. 拖动空白旋转、滚轮/双指缩放；拖动仪器沿轨道移动。重置恢复器材、当前预测和观察倍率，保留已保存的记录；可另行清空记录。
+
+轨道单位 cm，物距 `u=xₗ−xₒ`，实际屏距 `d=xₛ−xₗ`；理论像距 `v` 从透镜量起，可与当前屏距不同。
 
 ## 自动化验证
 
@@ -44,7 +50,7 @@ npm run dev
 npx playwright test
 ```
 
-Playwright 默认使用已经启动的 5173 端口服务器；配置了无头 Chromium 的 SwiftShader 选项，便于无 GPU 的 Linux 环境。测试结果 JSON 与过程截图输出至 `evidence/`。测试脚本会在隔离的浏览器上下文生成记录并导出样例 CSV。v1.1 新增的光路与题库测试验证实时几何变化和全部 15 道题目。
+Playwright 默认使用已经启动的 5173 端口服务器；配置了无头 Chromium 的 SwiftShader 选项，便于无 GPU 的 Linux 环境。测试结果 JSON 与过程截图输出至 `evidence/`。测试脚本会在隔离的浏览器上下文生成记录并导出样例 CSV。v1.2 增加探究流程、答案隐藏、坐标/距离、观察记录导出、屏面放大与空白/离焦校验。
 
 ## 文件结构
 
@@ -57,8 +63,12 @@ Playwright 默认使用已经启动的 5173 端口服务器；配置了无头 Ch
 - `src/main.tsx`：数值控制、教学模式、记录、CSV、课堂自测。
 - `src/physics.test.ts`：11 项科学与约束测试。
 - `src/rays.test.ts`：12 项光束与几何裁切测试。
+- `src/inquiry.ts` / `src/inquiry.test.ts`：探究状态机与 15 项流程/科学对照测试。
+- `src/imaging.ts` / `src/ScreenObservation.tsx`：共享投影生成与同尺度放大观察。
+- `src/records.ts` / `src/records.test.ts`：观察数据、理论揭示及 4 项 CSV 验证。
 - `tests/lab.spec.ts`：4 组基础浏览器端到端测试。
 - `tests/learning.spec.ts`：2 组实时光路与 15 道题库回归测试。
+- `tests/inquiry.spec.ts`：4 组预测/观察/揭示、放大成像与移动端回归测试。
 - `SCIENCE-REPORT.md`：科学检查与成像近似说明。
 - `LIMITATIONS.md`：资产性质、已知局限及后续改进。
 - `TEST-REPORT.md`：最终执行结果和验收范围。
