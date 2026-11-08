@@ -1,8 +1,9 @@
 # 初中物理 3D 互动实验室 · Stage 01
 
 - 在线发布：源码已准备在 `docs/`；仓库所有者需在 Settings → Pages 选择 Deploy from a branch、main、/docs 后保存。GitHub 当前授权不允许自动开启 Pages。启用后以设置页返回的实际网址为准。
-- 离线单文件：https://github.com/erqiqi46-spec/physics-optics-lab/raw/refs/heads/main/downloads/optics-lab.html
-- Windows 一键离线包：https://github.com/erqiqi46-spec/physics-optics-lab/raw/refs/heads/main/downloads/optics-lab-windows-x64.zip
+- 推荐离线下载：https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-offline.zip（解压后双击 HTML）
+- 离线单文件：https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab.html
+- Windows 一键离线包：https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-windows-x64.zip
 
 启用 Pages 后在线版可直接在浏览器使用；离线 HTML 下载后双击打开，无需安装或联网。
 
