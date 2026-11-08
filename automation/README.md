@@ -32,3 +32,15 @@ python automation/render-demo.py recordings --tail-dir recordings/tail
 ```
 
 补录会恢复前段已经展示的五组记录，供画面连续性使用，再通过实际界面切换到虚像情形。它不修改物理模型或伪造成像结果。正常完整录制会额外等待尾帧写入，转码时自动去掉多余停留。
+
+## 中文合成配音版
+
+提供了通用普通话声线 `zh-CN-XiaoxiaoNeural`，非真人录音。配音按章节逐段对齐，保留正常语速，必要时延长当前稳定画面；配音版有独立的 Word 口播稿、SRT 和时间轴，不能混用原无配音版时间码。
+
+```bash
+python -m pip install -r automation/requirements.txt
+python automation/synthesize-narration.py --timeline recordings/chapter-timeline.json --out recordings/audio
+python automation/add-narration.py --source recordings/optics-lab-teaching-demo.mp4 --voice recordings/voice-timeline.json --out recordings/voiced
+```
+
+资料包已含 24 段配音和相对路径的 `voice-timeline.json`，可跳过联网合成，直接复用音频。重新生成语音需要网络；合成保留主机代理与系统 CA 验证。MP4 已内嵌字幕，播放时无需重复加载 SRT。

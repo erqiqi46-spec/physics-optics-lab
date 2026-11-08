@@ -10,3 +10,12 @@
 - 录制叠加字幕、指针、控件高亮，并简化弹窗背景以便阅读，不修改成像计算。
 
 详见 evidence/teaching-recording/video-validation.json、chapter-timeline.json 与抽帧审阅图。文件的 SHA-256 与源 HTML 的 SHA-256 均已记录。
+
+## 中文配音版（补充交付）
+
+- 新文件 optics-lab-teaching-demo-voiced.mp4，289.12 秒，1920×1080，25 fps，H.264/yuv420p 与 AAC 双声道 48 kHz。
+- 24 段通用中文合成语音，声线 zh-CN-XiaoxiaoNeural，非真人录音；无背景音乐。
+- 逐章节匹配字幕与配音，每段配音均在对应章节内结束，必要时延长稳定画面，不加速语音；全部 24 段校验通过。
+- 重新生成配音版专用 SRT、Word/TXT/Markdown 讲稿与时间轴，原无配音版保留。
+- 音轨非静音，整体平均音量 −23.5 dB，峰值 −4.4 dB；码流及音画时长已检查。未声称逐字人工听审。
+- 验证记录见 evidence/teaching-recording/video-validation-voiced.json。

@@ -15,12 +15,13 @@
 
 ## 教学演示 MP4 与同步口播稿
 
-- [下载 1080p 教学录屏 MP4](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-teaching-demo.mp4)：约 4 分 45 秒，24 段随操作切换的硬字幕，H.264、25 fps。此版本没有合成配音。
-- [下载可编辑 Word 口播稿](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/teaching-narration.docx)。
-- [下载讲稿、SRT、操作流程和脚本资料包](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/teaching-materials.zip)。
-- [自动化复现说明](automation/README.md)。视频录制的是实际页面操作，叠加鼠标、高亮及字幕；不使用静态图片代替交互。视频已嵌入字幕，不必再外挂 SRT。
+- **[下载中文配音＋同步字幕 MP4](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-teaching-demo-voiced.mp4)**：约 4 分 49 秒，1920×1080，H.264/AAC，24 段讲解。通用中文合成声线，非真人教师录音。
+- [配音版 Word 口播稿](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/teaching-narration-voiced.docx)。
+- [配音版讲稿、SRT、音频和脚本资料包](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/teaching-materials-voiced.zip)。
+- [原无配音字幕版 MP4](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-teaching-demo.mp4) 仍保留，方便教师自行口播。
+- [自动化复现说明](automation/README.md)。使用真实网页操作录屏；配音版为同步讲解适当延长稳定画面，没有加速语音。两种版本的时间码不同，请使用相应讲稿。
 
-[![教学录屏预览](downloads/teaching-demo-poster.jpg)](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-teaching-demo.mp4)
+[![教学录屏预览](downloads/teaching-demo-poster.jpg)](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-teaching-demo-voiced.mp4)
 
 ## 本地运行
 

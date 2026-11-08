@@ -1,0 +1,19 @@
+{
+  "durationSeconds": 289.12,
+  "width": 1920,
+  "height": 1080,
+  "fps": "25/1",
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "sampleRate": "48000",
+  "channels": 2,
+  "voice": "zh-CN-XiaoxiaoNeural; generic synthetic Mandarin, not a real teacher",
+  "chapters": 24,
+  "subtitles": "burned in; retimed with narration; sidecar SRT included",
+  "speechSpeed": "original synthesis rate -3%; no speech acceleration",
+  "synchronization": "each audio clip starts at its matching chapter; stable end frames held when necessary",
+  "sizeBytes": 12274451,
+  "sha256": "45146d0c48af347d6ebeb830bd3185c02a3a17e58e37216fd2cfd434721da03b",
+  "chapterAudioFitChecked": true,
+  "sourceSilentVideoSha256": "5186bc6ac852b937154098ca36121171a89a4fc086d4b2f4f63e3727d07ee9b9"
+}
