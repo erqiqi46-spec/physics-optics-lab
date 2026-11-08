@@ -1,14 +1,14 @@
 # 初中物理 3D 互动实验室 · Stage 01
 
 - 在线发布：源码已准备在 `docs/`；仓库所有者需在 Settings → Pages 选择 Deploy from a branch、main、/docs 后保存。GitHub 当前授权不允许自动开启 Pages。启用后以设置页返回的实际网址为准。
-- 离线单文件：https://github.com/erqiqi46-spec/physics-optics-lab/releases/download/stage01-v1/optics-lab.html
-- Windows 一键离线包：https://github.com/erqiqi46-spec/physics-optics-lab/releases/download/stage01-v1/optics-lab-windows-x64.zip
+- 离线单文件：https://github.com/erqiqi46-spec/physics-optics-lab/raw/refs/heads/main/downloads/optics-lab.html
+- Windows 一键离线包：https://github.com/erqiqi46-spec/physics-optics-lab/raw/refs/heads/main/downloads/optics-lab-windows-x64.zip
 
 启用 Pages 后在线版可直接在浏览器使用；离线 HTML 下载后双击打开，无需安装或联网。
 
 在线演示需由仓库所有者启用 GitHub Pages；`docs/index.html` 为无外部网络请求的独立单文件版本，可下载后用浏览器打开。
 
-使用 `npm run build:standalone` 重新生成 `docs/index.html`。Windows 一键运行包与独立 HTML 见仓库 Releases。
+使用 `npm run build:standalone` 重新生成 `docs/index.html`。Windows 一键运行包与独立 HTML 见仓库 downloads 目录。
 
 首个实验：探究凸透镜成像的规律。Three.js + React Three Fiber + React + TypeScript + Vite。
 
