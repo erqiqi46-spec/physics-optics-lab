@@ -1,0 +1,19 @@
+
+> optics-lab-stage01@1.0.0 build:chemistry
+> tsc -p chemistry/tsconfig.json && vite build chemistry --outDir dist && node chemistry/scripts/standalone.mjs
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 2141 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.37 kB │ gzip:   0.30 kB
+dist/assets/index-C3psJ8p-.css     15.30 kB │ gzip:   4.27 kB
+dist/assets/index-CuYL5FKF.js   1,206.96 kB │ gzip: 340.91 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 48.87s
+Standalone HTML built.

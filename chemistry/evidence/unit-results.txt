@@ -1,0 +1,14 @@
+
+> optics-lab-stage01@1.0.0 test:chemistry
+> vitest run --config chemistry/vitest.config.ts
+
+
+ RUN  v3.2.7 /workspace/physics-optics-lab
+
+ ✓ chemistry/src/model.test.ts (31 tests) 69ms
+
+ Test Files  1 passed (1)
+      Tests  31 passed (31)
+   Start at  07:53:25
+   Duration  5.94s (transform 665ms, setup 0ms, collect 417ms, tests 69ms, environment 0ms, prepare 1.11s)
+

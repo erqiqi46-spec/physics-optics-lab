@@ -8,7 +8,10 @@
     "build": "tsc -b && vite build",
     "test": "vitest run",
     "build:standalone": "npm run build && node scripts/build-standalone.mjs",
-    "record:demo": "node automation/record-demo.mjs"
+    "record:demo": "node automation/record-demo.mjs",
+    "dev:chemistry": "vite chemistry --host 0.0.0.0 --port 5174",
+    "build:chemistry": "tsc -p chemistry/tsconfig.json && vite build chemistry --outDir dist && node chemistry/scripts/standalone.mjs",
+    "test:chemistry": "vitest run --config chemistry/vitest.config.ts"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
