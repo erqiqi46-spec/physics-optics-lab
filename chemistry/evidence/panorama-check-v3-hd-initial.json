@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "date": "2026-11-12T09:30:51.929Z",
+  "browser": "158.0.8127.18",
+  "checks": [
+    "prepared apparatus; no assembly UI",
+    "actual 3D hotspot clicks for full seven-step workflow",
+    "limewater observation checkpoint",
+    "eight independent error demonstrations",
+    "inside vs mouth at same time",
+    "correct comparison",
+    "lesson progress preserved across demos",
+    "fullness and glass cover",
+    "saved observation; CSV; persistence",
+    "summary and Escape",
+    "390px no overflow",
+    "touch tap on 3D hotspot",
+    "zero HTTP requests",
+    "zero page errors"
+  ]
+}

@@ -1,10 +1,19 @@
-# 二氧化碳全景 3D 全流程互动实验室 · v2
+# 二氧化碳全景 3D 全流程互动实验室 · v3
 
 本版器材已经搭好，学生无需选器材或自行组装。打开即可在完整3D实验台上点击高亮操作点，按步骤完成实验。
 
 ## 离线使用
 
-下载 `downloads/chemistry-co2-panorama-v2.zip`，解压后用较新 Chrome / Edge 双击 **二氧化碳全景实验室.html**。下载后运行无需联网或安装Node.js，浏览器需要WebGL2。不要在压缩包或网盘预览器内运行。
+下载 `downloads/chemistry-co2-panorama-v3.zip`，解压后用较新 Chrome / Edge 双击 **二氧化碳全景实验室-v3.html**。下载后运行无需联网或安装Node.js，浏览器需要WebGL2。不要在压缩包或网盘预览器内运行。
+
+## v3 现象与画面更新
+
+- 反应与通气气泡更醒目，暂停时保留观察帧；气泡大小、数量是教学放大，不是实测速率。
+- 澄清石灰水逐渐形成白色浑浊，三维液体与沉淀随当前模型变化。关键观察点调整到更易辨认的浑浊阶段。
+- 木条测试有更明显的橙黄色火焰；熄灭后火焰消失，留下炭化端部。
+- 新增同步“现象放大观察”窗，可对比澄清参照/当前液体，以及燃烧参照/当前木条。该窗是由当前模型驱动的局部示意，不是第二套物理计算或摄像机实拍。
+- 生成本地环境反射，改善玻璃边缘、金属反射、接触阴影和特写；移除干扰实验观察的台面网格，修正收集软管的折返。
+- 工具栏可切换“高清画质/流畅画质”，不重置实验或改变计算。高清使用折射与阴影，流畅使用透明近似以减少绘制开销。
 
 ## 七步完整流程
 
@@ -35,7 +44,8 @@ npm run dev:chemistry
 npm run test:chemistry
 npm run build:chemistry
 npx playwright install chromium
-node chemistry/scripts/check-panorama.mjs
+node chemistry/scripts/check-panorama.mjs v3
+node chemistry/scripts/check-visual-quality.mjs
 python3 chemistry/scripts/package.py
 ```
 

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "date": "2026-11-12T09:39:00.065Z",
+  "checks": [
+    "final bundled file opens with high quality default",
+    "HD prepared apparatus screenshot",
+    "HD burning splint and synchronized observation",
+    "HD extinguished splint and synchronized observation",
+    "quality switch retains experiment state",
+    "no external requests",
+    "no page errors"
+  ]
+}
