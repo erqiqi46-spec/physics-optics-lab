@@ -87,8 +87,10 @@ Playwright 默认使用已经启动的 5173 端口服务器；配置了无头 Ch
 
 这是 Stage 01 可交互核心版本：程序化器材为明确标记的临时资产，尚未达到最终电影级品质。未接入账号、服务器、班级系统或跨设备记录同步。模型、纹理、光学计算均本地生成；刻度字体已内嵌，界面使用本机字体，不需要外部字体或 3D 资产服务。
 
-## 新增：初中化学 CO₂ 三维实验
+## 初中化学：CO₂全景3D全流程互动实验 · v2
 
-[下载离线压缩包](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/chemistry-co2-lab-v1.zip)，解压后双击“二氧化碳实验室.html”，无需联网运行。
+**[下载全景预装版压缩包](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/chemistry-co2-panorama-v2.zip)**，解压后双击“二氧化碳全景实验室.html”。下载后无需联网运行。
 
-可选器材、点接口连接、调管深、查气密性、选药品、检验和验满，并显示错误操作的现象与提示。附观察记录、CSV导出及6道易错题。器材为程序化临时模型，气体分布为定性教学近似。[使用说明](chemistry/README.md) · [检查报告](chemistry/TEST-REPORT.md) · [科学与局限](chemistry/SCIENCE-AND-LIMITATIONS.md)。原物理实验保留。
+器材已搭好，无需学生组装。点击三维高亮操作点完成检查气密性、装固体、加酸、石灰水检验、收集、瓶口验满、盖片与记录。可旋转缩放与切换特写。附八类独立错误示范、原因提示和规范对照，返回时保留原实验进度。
+
+[使用说明](chemistry/README.md) · [本次检查报告](chemistry/TEST-REPORT.md) · [科学边界与局限](chemistry/SCIENCE-AND-LIMITATIONS.md)。程序化器材为临时资产，气体分布为定性教学近似。原凸透镜实验保留。
