@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "file": "co2_science_video_1080x1920.mp4",
+  "sha256": "750aa6eb215c91b434e73963a4e5cf8d644e8213350be10796d3c93081e57803",
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "pixelFormat": "yuv420p",
+  "colorRange": "tv",
+  "colorSpace": "bt709",
+  "audioChannels": 2,
+  "audioSampleRate": "48000",
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "frames": 4772,
+  "durationSeconds": "159.100000",
+  "blackFrames": [],
+  "compositeSuspectFrames": [],
+  "regionChecks": {
+    "opening": [],
+    "airtightness": [],
+    "reagents": [],
+    "bubbles": [],
+    "limewater": [],
+    "collection": [],
+    "fullness": [],
+    "inside_error": [],
+    "funnel_error": [],
+    "records": [],
+    "summary": [],
+    "outro": []
+  },
+  "footerScoreMax": 0.18040621266427717,
+  "subtitleChunks": 41,
+  "attentionTimingPassed": [
+    "airtightness",
+    "bubbles",
+    "limewater"
+  ],
+  "audioTracks": 4,
+  "scope": "Automated encoding, source, nonblank, stable footer/title/knowledge-card regions, nonblank source, subtitle and timing checks; visual review documented separately"
+}

@@ -1,0 +1,13 @@
+{
+  "mode": "final",
+  "chromeMode": "chrome-for-testing",
+  "concurrency": 1,
+  "captureFormat": "jpeg95",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSeconds": 159.06666666666666,
+  "frames": 4772,
+  "elapsedWallSeconds": 759.689,
+  "output": "/workspace/physics-optics-lab/co2-video//output/co2_science_video_1080x1920_render.mp4"
+}

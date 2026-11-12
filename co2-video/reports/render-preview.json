@@ -1,0 +1,13 @@
+{
+  "mode": "preview",
+  "width": 540,
+  "height": 960,
+  "fps": 30,
+  "durationSeconds": 159.06666666666666,
+  "frames": 4772,
+  "elapsedWallSeconds": 381.825,
+  "output": "/workspace/physics-optics-lab/co2-video//output/co2_video_preview_render.mp4",
+  "chromeMode": "chrome-for-testing",
+  "concurrency": 1,
+  "captureFormat": "jpeg95"
+}

@@ -1,0 +1,36 @@
+{
+  "durationSeconds": 159.06666666666666,
+  "sampleRate": 48000,
+  "stereo": true,
+  "narration": "Generic Microsoft zh-CN-YunxiNeural synthetic Mandarin, not a person imitation",
+  "music": "Original procedural sine-pad composition; no third-party samples",
+  "experiment": "Original procedural post-production foley, not a live lab recording",
+  "ui": "Original quiet confirmation and amber-warning tones",
+  "ducking": "BGM reduced during narration and key visual events",
+  "tracks": [
+    {
+      "name": "Narration",
+      "src": "audio/film/narration.wav",
+      "gain": 1,
+      "muted": false
+    },
+    {
+      "name": "Background Music",
+      "src": "audio/film/background_music.wav",
+      "gain": 1,
+      "muted": false
+    },
+    {
+      "name": "Experiment SFX",
+      "src": "audio/film/experiment_sfx.wav",
+      "gain": 1,
+      "muted": false
+    },
+    {
+      "name": "UI SFX",
+      "src": "audio/film/ui_sfx.wav",
+      "gain": 1,
+      "muted": false
+    }
+  ]
+}

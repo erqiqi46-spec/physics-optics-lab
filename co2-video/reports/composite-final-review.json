@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "chromeMode": "chrome-for-testing",
+  "fullRerender": true,
+  "repairsUsed": false,
+  "compositeSuspectFrames": [],
+  "regions": {
+    "opening": [],
+    "airtightness": [],
+    "reagents": [],
+    "bubbles": [],
+    "limewater": [],
+    "collection": [],
+    "fullness": [],
+    "inside_error": [],
+    "funnel_error": [],
+    "records": [],
+    "summary": [],
+    "outro": []
+  }
+}

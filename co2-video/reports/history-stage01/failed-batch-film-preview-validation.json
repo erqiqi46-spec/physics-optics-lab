@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "file": "co2_video_preview_render.mp4",
+  "sha256": "2a91ebccdebcd545446f8ec50e549114133e5920977b5d4c56f0603682cc72db",
+  "width": 540,
+  "height": 960,
+  "fps": "30/1",
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "frames": 4772,
+  "durationSeconds": "159.083000",
+  "blackFrames": [],
+  "displacedFooterSuspectFrames": [],
+  "footerScoreMax": 0.33512544802867383,
+  "subtitleChunks": 41,
+  "attentionTimingPassed": [
+    "airtightness",
+    "bubbles",
+    "limewater"
+  ],
+  "audioTracks": 4,
+  "scope": "Automated encoding, source, nonblank, stable footer, subtitle and timing checks; visual review documented separately"
+}

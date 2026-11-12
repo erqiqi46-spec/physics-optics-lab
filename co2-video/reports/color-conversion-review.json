@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "method": "Full-resolution RGB appearance comparison of3 actual preview frames before/after range/matrix normalization; not colorimetric display calibration",
+  "samples": [
+    {
+      "frame": 500,
+      "meanAbsoluteRgbDifference": 2.370551054526749
+    },
+    {
+      "frame": 1765,
+      "meanAbsoluteRgbDifference": 2.307289737654321
+    },
+    {
+      "frame": 3242,
+      "meanAbsoluteRgbDifference": 2.3697170781893004
+    }
+  ],
+  "threshold": 4
+}

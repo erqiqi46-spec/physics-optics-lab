@@ -1,0 +1,235 @@
+[
+  {
+    "path": "raw/01-establish",
+    "kind": "original_app_still",
+    "frames": 1,
+    "fps": 1,
+    "duration": null,
+    "width": 1080,
+    "height": 810,
+    "status": "captured_complete_edit_review_pending",
+    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+    "presentationOnlyCss": true,
+    "physicalModelModified": false,
+    "actualObservedPhenomenon": "装置预装全景",
+    "needsReview": false
+  },
+  {
+    "path": "raw/02-column-before",
+    "kind": "original_app_still",
+    "frames": 1,
+    "fps": 1,
+    "duration": null,
+    "width": 1080,
+    "height": 810,
+    "status": "captured_complete_edit_review_pending",
+    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+    "presentationOnlyCss": true,
+    "physicalModelModified": false,
+    "actualObservedPhenomenon": "检查前：发生器与长颈漏斗",
+    "needsReview": false
+  },
+  {
+    "path": "raw/03-column-after",
+    "kind": "original_app_still",
+    "frames": 1,
+    "fps": 1,
+    "duration": null,
+    "width": 1080,
+    "height": 810,
+    "status": "captured_complete_edit_review_pending",
+    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+    "presentationOnlyCss": true,
+    "physicalModelModified": false,
+    "actualObservedPhenomenon": "液柱维持，检查通过；课件液柱建立是状态切换",
+    "needsReview": false
+  },
+  {
+    "path": "raw/04-empty-open",
+    "kind": "original_app_still",
+    "frames": 1,
+    "fps": 1,
+    "duration": null,
+    "width": 1080,
+    "height": 810,
+    "status": "captured_complete_edit_review_pending",
+    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+    "presentationOnlyCss": true,
+    "physicalModelModified": false,
+    "actualObservedPhenomenon": "排水开塞后、装固体前",
+    "needsReview": false
+  },
+  {
+    "path": "raw/05-marble-loaded",
+    "kind": "original_app_still",
+    "frames": 1,
+    "fps": 1,
+    "duration": null,
+    "width": 1080,
+    "height": 810,
+    "status": "captured_complete_edit_review_pending",
+    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+    "presentationOnlyCss": true,
+    "physicalModelModified": false,
+    "actualObservedPhenomenon": "大理石加入后，非连续投料动画",
+    "needsReview": false
+  },
+  {
+    "path": "raw/06-before-acid",
+    "kind": "original_app_still",
+    "frames": 1,
+    "fps": 1,
+    "duration": null,
+    "width": 1080,
+    "height": 810,
+    "status": "captured_complete_edit_review_pending",
+    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+    "presentationOnlyCss": true,
+    "physicalModelModified": false,
+    "actualObservedPhenomenon": "加酸前，瓶塞已复装",
+    "needsReview": false
+  },
+  {
+    "path": "raw/07-bubble-onset",
+    "kind": "original_app_frame_sequence",
+    "frames": 70,
+    "fps": 20,
+    "duration": 3.5,
+    "width": 1080,
+    "height": 810,
+    "status": "captured_complete_edit_review_pending",
+    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+    "presentationOnlyCss": true,
+    "physicalModelModified": false,
+    "actualObservedPhenomenon": "真实按钮加酸前后，气泡出现",
+    "needsReview": false
+  },
+  {
+    "path": "raw/08-lime-clear",
+    "kind": "original_app_still",
+    "frames": 1,
+    "fps": 1,
+    "duration": null,
+    "width": 1080,
+    "height": 810,
+    "status": "captured_complete_edit_review_pending",
+    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+    "presentationOnlyCss": true,
+    "physicalModelModified": false,
+    "actualObservedPhenomenon": "新鲜石灰水，仿真时钟暂停以建立观察前镜头",
+    "needsReview": false
+  },
+  {
+    "path": "raw/09-lime-transition",
+    "kind": "original_app_frame_sequence",
+    "frames": 31,
+    "fps": null,
+    "duration": null,
+    "width": 1080,
+    "height": 810,
+    "status": "incomplete_do_not_use",
+    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+    "presentationOnlyCss": true,
+    "physicalModelModified": false,
+    "actualObservedPhenomenon": "partial limewater capture; full transition not verified",
+    "needsReview": true
+  },
+  {
+    "path": "raw/clock-probe",
+    "kind": "original_app_frame_sequence",
+    "frames": 40,
+    "fps": 20,
+    "duration": 2.0,
+    "width": 1080,
+    "height": 810,
+    "status": "complete_technical_probe_only",
+    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+    "presentationOnlyCss": true,
+    "physicalModelModified": false,
+    "actualObservedPhenomenon": "2s clock-stepped bubble motion probe",
+    "needsReview": false
+  },
+  {
+    "path": "raw/probe/page@6099045cd053dbd675cd4de8ca0b77df.webm",
+    "kind": "realtime_browser_recording",
+    "frames": null,
+    "fps": "25/1",
+    "duration": 23.28,
+    "width": 1440,
+    "height": 1080,
+    "status": "probe_only_not_edit_approved",
+    "actualObservedPhenomenon": "browser recording technical probe; timings and cadence not edit-approved",
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 1440,
+          "height": 1080,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "23.280000",
+        "size": "1761004"
+      }
+    }
+  },
+  {
+    "path": "raw/probe/page@b8efbc00e92af5bf8e72d1df504f1ea6.webm",
+    "kind": "realtime_browser_recording",
+    "frames": null,
+    "fps": "25/1",
+    "duration": null,
+    "width": 1440,
+    "height": 1080,
+    "status": "invalid_incomplete_container",
+    "actualObservedPhenomenon": "browser recording technical probe; timings and cadence not edit-approved",
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 1440,
+          "height": 1080,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "size": "262144"
+      }
+    }
+  },
+  {
+    "path": "raw/probe2/page@751be149e90c003830d6f3edf2ca471b.webm",
+    "kind": "realtime_browser_recording",
+    "frames": null,
+    "fps": "25/1",
+    "duration": 15.12,
+    "width": 1440,
+    "height": 1080,
+    "status": "probe_only_not_edit_approved",
+    "actualObservedPhenomenon": "browser recording technical probe; timings and cadence not edit-approved",
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 1440,
+          "height": 1080,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "15.120000",
+        "size": "1132860"
+      }
+    }
+  }
+]

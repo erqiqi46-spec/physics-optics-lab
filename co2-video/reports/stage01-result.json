@@ -1,27 +1,10 @@
 {
-  "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-  "sourceCommit": "50ca134",
-  "sourceBytes": 1298966,
-  "captureComplete": false,
-  "normalCompletedIds": [
-    "01-establish",
-    "02-column-before",
-    "03-column-after",
-    "04-empty-open",
-    "05-marble-loaded",
-    "06-before-acid",
-    "07-bubble-onset",
-    "08-lime-clear"
-  ],
-  "partialLimeFrames": 31,
-  "expectedLimeFrames": 90,
-  "rawCapturingFailure": "exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 45s",
-  "cause": "not established; do not claim an OOM, network or app-model diagnosis without further evidence",
+  "currentStatus": "FINAL_VIDEO_COMPLETE",
+  "sourceComplete": true,
   "stage02Locked": true,
-  "missingKeyPhenomena": [
-    "complete limewater transition",
-    "continuous before/after mouth retest footage",
-    "inside/mouth and funnel error shots",
-    "records and ending shots"
-  ]
+  "previewPassed": true,
+  "finalPassed": true,
+  "finalFrames": 4772,
+  "finalSeconds": "159.100000",
+  "historicalFailureReports": "history-stage01/"
 }

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "reviewer": "Production assistant visual review, not independent teacher certification",
+  "finalSha256": "750aa6eb215c91b434e73963a4e5cf8d644e8213350be10796d3c93081e57803",
+  "evidence": [
+    "frames/final/contact.jpg",
+    "frames/final/inside_error.jpg",
+    "frames/final/funnel_error.jpg",
+    "frames/key-events/airtightness-contact.jpg",
+    "frames/key-events/limewater-contact.jpg"
+  ],
+  "reviewed": [
+    "All12 chapters visible with knowledge cards and captions",
+    "Native bubble onset and clear-to-cloudy transition retained",
+    "Mouth flame before/after and inside/mouth error distinguishable",
+    "Seal comparison schematic explicitly labelled",
+    "Equations readable and balanced",
+    "No main frame stretched; split positions retain flame and vessel",
+    "Subtitles below, not on top of phenomena"
+  ],
+  "limitations": [
+    "Internal tube geometry in original model is simplified; supplemental schematics explain normative positions",
+    "No independent full-film human audio listening review",
+    "No movie-grade asset acceptance or real classroom learning study"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "frames": [
+    {
+      "shot": "airtightness",
+      "label": "before-focus",
+      "globalFrame": 326,
+      "seconds": 10.866666666666667,
+      "path": "frames/key-events/airtightness-before-focus.jpg"
+    },
+    {
+      "shot": "airtightness",
+      "label": "focus-ready",
+      "globalFrame": 344,
+      "seconds": 11.466666666666667,
+      "path": "frames/key-events/airtightness-focus-ready.jpg"
+    },
+    {
+      "shot": "airtightness",
+      "label": "before-event",
+      "globalFrame": 422,
+      "seconds": 14.066666666666666,
+      "path": "frames/key-events/airtightness-before-event.jpg"
+    },
+    {
+      "shot": "airtightness",
+      "label": "during-event",
+      "globalFrame": 447,
+      "seconds": 14.9,
+      "path": "frames/key-events/airtightness-during-event.jpg"
+    },
+    {
+      "shot": "airtightness",
+      "label": "after-event",
+      "globalFrame": 522,
+      "seconds": 17.4,
+      "path": "frames/key-events/airtightness-after-event.jpg"
+    },
+    {
+      "shot": "bubbles",
+      "label": "before-focus",
+      "globalFrame": 1131,
+      "seconds": 37.7,
+      "path": "frames/key-events/bubbles-before-focus.jpg"
+    },
+    {
+      "shot": "bubbles",
+      "label": "focus-ready",
+      "globalFrame": 1149,
+      "seconds": 38.3,
+      "path": "frames/key-events/bubbles-focus-ready.jpg"
+    },
+    {
+      "shot": "bubbles",
+      "label": "before-event",
+      "globalFrame": 1171,
+      "seconds": 39.03333333333333,
+      "path": "frames/key-events/bubbles-before-event.jpg"
+    },
+    {
+      "shot": "bubbles",
+      "label": "during-event",
+      "globalFrame": 1196,
+      "seconds": 39.86666666666667,
+      "path": "frames/key-events/bubbles-during-event.jpg"
+    },
+    {
+      "shot": "bubbles",
+      "label": "after-event",
+      "globalFrame": 1271,
+      "seconds": 42.36666666666667,
+      "path": "frames/key-events/bubbles-after-event.jpg"
+    },
+    {
+      "shot": "limewater",
+      "label": "before-focus",
+      "globalFrame": 1565,
+      "seconds": 52.166666666666664,
+      "path": "frames/key-events/limewater-before-focus.jpg"
+    },
+    {
+      "shot": "limewater",
+      "label": "focus-ready",
+      "globalFrame": 1583,
+      "seconds": 52.766666666666666,
+      "path": "frames/key-events/limewater-focus-ready.jpg"
+    },
+    {
+      "shot": "limewater",
+      "label": "before-event",
+      "globalFrame": 1692,
+      "seconds": 56.4,
+      "path": "frames/key-events/limewater-before-event.jpg"
+    },
+    {
+      "shot": "limewater",
+      "label": "during-event",
+      "globalFrame": 1717,
+      "seconds": 57.233333333333334,
+      "path": "frames/key-events/limewater-during-event.jpg"
+    },
+    {
+      "shot": "limewater",
+      "label": "after-event",
+      "globalFrame": 1792,
+      "seconds": 59.733333333333334,
+      "path": "frames/key-events/limewater-after-event.jpg"
+    },
+    {
+      "shot": "fullness",
+      "label": "before-focus",
+      "globalFrame": 2567,
+      "seconds": 85.56666666666666,
+      "path": "frames/key-events/fullness-before-focus.jpg"
+    },
+    {
+      "shot": "fullness",
+      "label": "focus-ready",
+      "globalFrame": 2585,
+      "seconds": 86.16666666666667,
+      "path": "frames/key-events/fullness-focus-ready.jpg"
+    },
+    {
+      "shot": "fullness",
+      "label": "before-event",
+      "globalFrame": 2792,
+      "seconds": 93.06666666666666,
+      "path": "frames/key-events/fullness-before-event.jpg"
+    },
+    {
+      "shot": "fullness",
+      "label": "during-event",
+      "globalFrame": 2817,
+      "seconds": 93.9,
+      "path": "frames/key-events/fullness-during-event.jpg"
+    },
+    {
+      "shot": "fullness",
+      "label": "after-event",
+      "globalFrame": 2892,
+      "seconds": 96.4,
+      "path": "frames/key-events/fullness-after-event.jpg"
+    }
+  ],
+  "sourceAspect": "1080/810=4:3",
+  "displayAspect": "1000/750=4:3",
+  "maxDigitalScale": 1.035,
+  "fullFrameEffectiveWidth": 1035,
+  "sourceWidth": 1080,
+  "splitCrop": "Two panels cover cropped, no aspect stretching; splint flame and generator funnel visible",
+  "limitations": "Opening native dolly plus small digital pushes; source permits no continuous pouring animation"
+}

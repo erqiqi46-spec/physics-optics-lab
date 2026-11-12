@@ -1,14 +1,29 @@
 ﻿path,kind,frames,fps,duration,width,height,status,actualObservedPhenomenon
-raw/01-establish,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,装置预装全景
-raw/02-column-before,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,检查前：发生器与长颈漏斗
-raw/03-column-after,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,液柱维持，检查通过；课件液柱建立是状态切换
-raw/04-empty-open,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,排水开塞后、装固体前
-raw/05-marble-loaded,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,大理石加入后，非连续投料动画
-raw/06-before-acid,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,加酸前，瓶塞已复装
-raw/07-bubble-onset,original_app_frame_sequence,70,20,3.5,1080,810,captured_complete_edit_review_pending,真实按钮加酸前后，气泡出现
-raw/08-lime-clear,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,新鲜石灰水，仿真时钟暂停以建立观察前镜头
-raw/09-lime-transition,original_app_frame_sequence,31,,,1080,810,incomplete_do_not_use,partial limewater capture; full transition not verified
-raw/clock-probe,original_app_frame_sequence,40,20,2.0,1080,810,complete_technical_probe_only,2s clock-stepped bubble motion probe
-raw/probe/page@6099045cd053dbd675cd4de8ca0b77df.webm,realtime_browser_recording,,25/1,23.28,1440,1080,probe_only_not_edit_approved,browser recording technical probe; timings and cadence not edit-approved
-raw/probe/page@b8efbc00e92af5bf8e72d1df504f1ea6.webm,realtime_browser_recording,,25/1,,1440,1080,invalid_incomplete_container,browser recording technical probe; timings and cadence not edit-approved
-raw/probe2/page@751be149e90c003830d6f3edf2ca471b.webm,realtime_browser_recording,,25/1,15.12,1440,1080,probe_only_not_edit_approved,browser recording technical probe; timings and cadence not edit-approved
+raw/02-column-before,verified still; use explicit ResultFreeze,1,1,0,1080,810,native_capture_verified,检查前：发生器与长颈漏斗
+raw/03-column-after,verified still; use explicit ResultFreeze,1,1,0,1080,810,native_capture_verified,液柱维持，检查通过；课件液柱建立是状态切换
+raw/04-empty-open,verified still; use explicit ResultFreeze,1,1,0,1080,810,native_capture_verified,排水开塞后、装固体前
+raw/05-marble-loaded,verified still; use explicit ResultFreeze,1,1,0,1080,810,native_capture_verified,大理石加入后，非连续投料动画
+raw/06-before-acid,verified still; use explicit ResultFreeze,1,1,0,1080,810,native_capture_verified,加酸前，瓶塞已复装
+raw/07-bubble-onset,clock-stepped original-app frames,70,20,3.5,1080,810,native_capture_verified,真实按钮加酸前后，气泡出现
+raw/08-lime-clear,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Fresh clear limewater; native simulation paused to establish the shot
+raw/09-lime-transition,native browser clock frame sequence,64,20,3.2,1080,810,native_capture_verified,Original v3 clear-to-cloudy transition; stop at the app own observation pause
+raw/10-lime-cloudy,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Native white precipitate checkpoint
+raw/11-collection,native browser clock frame sequence,50,20,2.5,1080,810,native_capture_verified,Native auxiliary gas-distribution display; must be explicitly labelled as schematic
+raw/12-splint-burning,native browser clock frame sequence,16,20,0.8,1080,810,native_capture_verified,Native early mouth-test result: burning
+raw/13-splint-extinguish,native browser clock frame sequence,20,20,1,1080,810,native_capture_verified,"After further native collection, retest result updates; not a continuous combustion model"
+raw/14-fullness,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Native valid mouth-test result
+raw/15-covered,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Tube removed and jar covered
+raw/16-records,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Native saved observations table
+raw/01-establish,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Verified nonblank native prepared apparatus
+raw/01-opening-dolly,native browser clock frame sequence,45,20,2.25,1080,810,native_capture_verified,"Native OrbitControls wheel dolly, no re-simulated apparatus"
+raw/17-inside-out,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Native error snapshot: inside splint extinguished
+raw/18-mouth-burning,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Same native model instant: mouth splint still burning
+raw/19-funnel-leak,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Native unsealed funnel snapshot; paths are auxiliary
+raw/20-funnel-correct,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Native sealed-funnel comparison at same model time
+raw/extra-0,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,瓶塞未塞紧 independent native error snapshot
+raw/extra-1,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,出气管浸入反应液 independent native error snapshot
+raw/extra-2,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,收集导管靠近瓶口 independent native error snapshot
+raw/extra-3,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,集气瓶倒置 independent native error snapshot
+raw/extra-4,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,过早在瓶口验满 independent native error snapshot
+raw/extra-5,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,反应时夹闭出口 independent native error snapshot
+raw/21-outro,original-app still; deliberate ResultFreeze only,1,1,0,1080,810,native_capture_verified,Completed native apparatus after valid mouth test and glass cover

@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "task": "collection",
+  "events": [
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "切换画质"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "检查气密性"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "观察 5 秒（虚拟）"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "继续：装入大理石"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "点击大理石盘，加入固体"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "复塞，进入加液"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "点击试剂瓶，加入稀盐酸"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "观察 5 秒（虚拟）"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "观察 5 秒（虚拟）"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "观察 5 秒（虚拟）"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "加入新鲜石灰水并检验"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "观察 5 秒（虚拟）"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "转入收集"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "集气瓶特写"
+    }
+  ],
+  "errors": [],
+  "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8"
+}

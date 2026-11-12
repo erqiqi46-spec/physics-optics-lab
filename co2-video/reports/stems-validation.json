@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "stems": [
+    {
+      "file": "background_music.wav",
+      "duration": 159.06666666666666,
+      "samplePeak": 0.031707763671875
+    },
+    {
+      "file": "experiment_sfx.wav",
+      "duration": 159.06666666666666,
+      "samplePeak": 0.016998291015625
+    },
+    {
+      "file": "narration.wav",
+      "duration": 159.06666666666666,
+      "samplePeak": 0.820220947265625
+    },
+    {
+      "file": "ui_sfx.wav",
+      "duration": 159.06666666666666,
+      "samplePeak": 0.011993408203125
+    }
+  ],
+  "preMasterSumPeak": 0.82269287109375,
+  "stereo": true,
+  "sampleRate": 48000,
+  "scope": "PCM structure, duration, nonzero and no sample clipping; final AAC true peak checked separately"
+}

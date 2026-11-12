@@ -1,5 +1,14 @@
 # 初中物理 3D 互动实验室 · Stage 01
 
+## 二氧化碳 v3 完整教学视频
+
+- [下载完整中文配音视频（约2分39秒，竖屏1080p）](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/co2-v3-complete-teaching-video.mp4)
+- [下载完整制作工程（含原课件、素材、口播、字幕、四条音轨与报告）](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/co2-v3-complete-video-project.zip)
+- [查看最终口播与分镜](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/co2-v3-narration.md)
+
+视频由原v3网页自动操作采集后分镜剪辑，含讲解停顿与错误快照；不是一镜到底。MP4用于观看，随包HTML用于交互。详见[制作工程说明](co2-video/README.md)。
+
+
 - 在线发布：源码已准备在 `docs/`；仓库所有者需在 Settings → Pages 选择 Deploy from a branch、main、/docs 后保存。GitHub 当前授权不允许自动开启 Pages。启用后以设置页返回的实际网址为准。
 - 推荐离线下载：https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab-offline-v1.2.zip（解压后双击 HTML）
 - 离线单文件：https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/optics-lab.html
@@ -95,10 +104,10 @@ Playwright 默认使用已经启动的 5173 端口服务器；配置了无头 Ch
 
 [使用说明](chemistry/README.md) · [本次检查报告](chemistry/TEST-REPORT.md) · [科学边界与局限](chemistry/SCIENCE-AND-LIMITATIONS.md)。程序化器材为临时资产，气体分布为定性教学近似。原凸透镜实验保留。
 
-## 二氧化碳视频制作 · 第1批审核（非完整成片）
+## 二氧化碳视频制作 · 历史第1批审核样片
 
 - [16秒采集技术样片 MP4](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/co2-video-stage01-sample.mp4)
 - [审核资料、Remotion样板、已采集原始素材与口播草稿](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/co2-video-stage01-review.zip)
 - [约146秒口播配音草稿（未锁定正式镜头）](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/co2-video-narration-draft.mp3)
 
-技术样片只包含已成功采集的气泡片段及明确标注的关键帧讲解，不是150秒完整教学片。原始补录在石灰水变化中断，完整关键镜头未齐，按任务停机规则暂停后续批次。[审核报告](co2-video/reports/stage01_audit.md) · [补录清单](co2-video/reports/missing_shots.md) · [科学审核](co2-video/reports/science_review.md)。
+以下为早期历史样片，当时因采集不完整而暂停。本次已由制作端补录原课件并完成全长剪辑；最新成片见本页顶部，历史样片无需重复下载。[审核报告](co2-video/reports/stage01_audit.md) · [补录清单](co2-video/reports/missing_shots.md) · [科学审核](co2-video/reports/science_review.md)。

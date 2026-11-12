@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "reviewer": "Production assistant, not independent teacher certification",
+  "previewSha256": "690a1b0bf6d4b83ff789ecac5f64df3b5884403026fbfc5b50304e86f15a3a0e",
+  "timelineSha256": "c3de489c48544bb071ff9eca9f76188ee255c5371d911deff0f3ccda13b1afa4",
+  "visualEvidence": "frames/preview/contact.jpg and individual chapter/event frames",
+  "checked": [
+    "12 chapter layouts",
+    "Bubble before/onset/mid/after",
+    "Clear-to-cloudy native transition",
+    "Mouth-test flame before/after",
+    "Inside/mouth split flame positions",
+    "Funnel seal split and schematic labels",
+    "CJK subtitles and equations",
+    "No unintended missing knowledge cards in expanded full-frame check"
+  ],
+  "audioScope": "Four independent stems and word-boundary cue timing verified; final mastering after rendering",
+  "limitations": [
+    "No independent human listening review",
+    "No class learning-effect study",
+    "Native source20fps and procedural assets"
+  ]
+}

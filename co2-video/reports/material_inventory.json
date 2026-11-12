@@ -1,235 +1,310 @@
 [
   {
-    "path": "raw/01-establish",
-    "kind": "original_app_still",
-    "frames": 1,
-    "fps": 1,
-    "duration": null,
-    "width": 1080,
-    "height": 810,
-    "status": "captured_complete_edit_review_pending",
-    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-    "presentationOnlyCss": true,
-    "physicalModelModified": false,
-    "actualObservedPhenomenon": "装置预装全景",
-    "needsReview": false
-  },
-  {
     "path": "raw/02-column-before",
-    "kind": "original_app_still",
+    "kind": "verified still; use explicit ResultFreeze",
     "frames": 1,
     "fps": 1,
-    "duration": null,
+    "duration": 0,
     "width": 1080,
     "height": 810,
-    "status": "captured_complete_edit_review_pending",
-    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-    "presentationOnlyCss": true,
-    "physicalModelModified": false,
-    "actualObservedPhenomenon": "检查前：发生器与长颈漏斗",
-    "needsReview": false
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "检查前：发生器与长颈漏斗"
   },
   {
     "path": "raw/03-column-after",
-    "kind": "original_app_still",
+    "kind": "verified still; use explicit ResultFreeze",
     "frames": 1,
     "fps": 1,
-    "duration": null,
+    "duration": 0,
     "width": 1080,
     "height": 810,
-    "status": "captured_complete_edit_review_pending",
-    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-    "presentationOnlyCss": true,
-    "physicalModelModified": false,
-    "actualObservedPhenomenon": "液柱维持，检查通过；课件液柱建立是状态切换",
-    "needsReview": false
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "液柱维持，检查通过；课件液柱建立是状态切换"
   },
   {
     "path": "raw/04-empty-open",
-    "kind": "original_app_still",
+    "kind": "verified still; use explicit ResultFreeze",
     "frames": 1,
     "fps": 1,
-    "duration": null,
+    "duration": 0,
     "width": 1080,
     "height": 810,
-    "status": "captured_complete_edit_review_pending",
-    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-    "presentationOnlyCss": true,
-    "physicalModelModified": false,
-    "actualObservedPhenomenon": "排水开塞后、装固体前",
-    "needsReview": false
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "排水开塞后、装固体前"
   },
   {
     "path": "raw/05-marble-loaded",
-    "kind": "original_app_still",
+    "kind": "verified still; use explicit ResultFreeze",
     "frames": 1,
     "fps": 1,
-    "duration": null,
+    "duration": 0,
     "width": 1080,
     "height": 810,
-    "status": "captured_complete_edit_review_pending",
-    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-    "presentationOnlyCss": true,
-    "physicalModelModified": false,
-    "actualObservedPhenomenon": "大理石加入后，非连续投料动画",
-    "needsReview": false
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "大理石加入后，非连续投料动画"
   },
   {
     "path": "raw/06-before-acid",
-    "kind": "original_app_still",
+    "kind": "verified still; use explicit ResultFreeze",
     "frames": 1,
     "fps": 1,
-    "duration": null,
+    "duration": 0,
     "width": 1080,
     "height": 810,
-    "status": "captured_complete_edit_review_pending",
-    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-    "presentationOnlyCss": true,
-    "physicalModelModified": false,
-    "actualObservedPhenomenon": "加酸前，瓶塞已复装",
-    "needsReview": false
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "加酸前，瓶塞已复装"
   },
   {
     "path": "raw/07-bubble-onset",
-    "kind": "original_app_frame_sequence",
+    "kind": "clock-stepped original-app frames",
     "frames": 70,
     "fps": 20,
     "duration": 3.5,
     "width": 1080,
     "height": 810,
-    "status": "captured_complete_edit_review_pending",
-    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-    "presentationOnlyCss": true,
-    "physicalModelModified": false,
-    "actualObservedPhenomenon": "真实按钮加酸前后，气泡出现",
-    "needsReview": false
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "真实按钮加酸前后，气泡出现"
   },
   {
     "path": "raw/08-lime-clear",
-    "kind": "original_app_still",
+    "kind": "original-app still; deliberate ResultFreeze only",
     "frames": 1,
     "fps": 1,
-    "duration": null,
+    "duration": 0,
     "width": 1080,
     "height": 810,
-    "status": "captured_complete_edit_review_pending",
-    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-    "presentationOnlyCss": true,
-    "physicalModelModified": false,
-    "actualObservedPhenomenon": "新鲜石灰水，仿真时钟暂停以建立观察前镜头",
-    "needsReview": false
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Fresh clear limewater; native simulation paused to establish the shot"
   },
   {
     "path": "raw/09-lime-transition",
-    "kind": "original_app_frame_sequence",
-    "frames": 31,
-    "fps": null,
-    "duration": null,
-    "width": 1080,
-    "height": 810,
-    "status": "incomplete_do_not_use",
-    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-    "presentationOnlyCss": true,
-    "physicalModelModified": false,
-    "actualObservedPhenomenon": "partial limewater capture; full transition not verified",
-    "needsReview": true
-  },
-  {
-    "path": "raw/clock-probe",
-    "kind": "original_app_frame_sequence",
-    "frames": 40,
+    "kind": "native browser clock frame sequence",
+    "frames": 64,
     "fps": 20,
-    "duration": 2.0,
+    "duration": 3.2,
     "width": 1080,
     "height": 810,
-    "status": "complete_technical_probe_only",
-    "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
-    "presentationOnlyCss": true,
-    "physicalModelModified": false,
-    "actualObservedPhenomenon": "2s clock-stepped bubble motion probe",
-    "needsReview": false
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Original v3 clear-to-cloudy transition; stop at the app own observation pause"
   },
   {
-    "path": "raw/probe/page@6099045cd053dbd675cd4de8ca0b77df.webm",
-    "kind": "realtime_browser_recording",
-    "frames": null,
-    "fps": "25/1",
-    "duration": 23.28,
-    "width": 1440,
-    "height": 1080,
-    "status": "probe_only_not_edit_approved",
-    "actualObservedPhenomenon": "browser recording technical probe; timings and cadence not edit-approved",
-    "ffprobe": {
-      "programs": [],
-      "stream_groups": [],
-      "streams": [
-        {
-          "codec_name": "vp9",
-          "width": 1440,
-          "height": 1080,
-          "r_frame_rate": "25/1",
-          "avg_frame_rate": "25/1"
-        }
-      ],
-      "format": {
-        "duration": "23.280000",
-        "size": "1761004"
-      }
-    }
+    "path": "raw/10-lime-cloudy",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Native white precipitate checkpoint"
   },
   {
-    "path": "raw/probe/page@b8efbc00e92af5bf8e72d1df504f1ea6.webm",
-    "kind": "realtime_browser_recording",
-    "frames": null,
-    "fps": "25/1",
-    "duration": null,
-    "width": 1440,
-    "height": 1080,
-    "status": "invalid_incomplete_container",
-    "actualObservedPhenomenon": "browser recording technical probe; timings and cadence not edit-approved",
-    "ffprobe": {
-      "programs": [],
-      "stream_groups": [],
-      "streams": [
-        {
-          "codec_name": "vp9",
-          "width": 1440,
-          "height": 1080,
-          "r_frame_rate": "25/1",
-          "avg_frame_rate": "25/1"
-        }
-      ],
-      "format": {
-        "size": "262144"
-      }
-    }
+    "path": "raw/11-collection",
+    "kind": "native browser clock frame sequence",
+    "frames": 50,
+    "fps": 20,
+    "duration": 2.5,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Native auxiliary gas-distribution display; must be explicitly labelled as schematic"
   },
   {
-    "path": "raw/probe2/page@751be149e90c003830d6f3edf2ca471b.webm",
-    "kind": "realtime_browser_recording",
-    "frames": null,
-    "fps": "25/1",
-    "duration": 15.12,
-    "width": 1440,
-    "height": 1080,
-    "status": "probe_only_not_edit_approved",
-    "actualObservedPhenomenon": "browser recording technical probe; timings and cadence not edit-approved",
-    "ffprobe": {
-      "programs": [],
-      "stream_groups": [],
-      "streams": [
-        {
-          "codec_name": "vp9",
-          "width": 1440,
-          "height": 1080,
-          "r_frame_rate": "25/1",
-          "avg_frame_rate": "25/1"
-        }
-      ],
-      "format": {
-        "duration": "15.120000",
-        "size": "1132860"
-      }
-    }
+    "path": "raw/12-splint-burning",
+    "kind": "native browser clock frame sequence",
+    "frames": 16,
+    "fps": 20,
+    "duration": 0.8,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Native early mouth-test result: burning"
+  },
+  {
+    "path": "raw/13-splint-extinguish",
+    "kind": "native browser clock frame sequence",
+    "frames": 20,
+    "fps": 20,
+    "duration": 1,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "After further native collection, retest result updates; not a continuous combustion model"
+  },
+  {
+    "path": "raw/14-fullness",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Native valid mouth-test result"
+  },
+  {
+    "path": "raw/15-covered",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Tube removed and jar covered"
+  },
+  {
+    "path": "raw/16-records",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Native saved observations table"
+  },
+  {
+    "path": "raw/01-establish",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Verified nonblank native prepared apparatus"
+  },
+  {
+    "path": "raw/01-opening-dolly",
+    "kind": "native browser clock frame sequence",
+    "frames": 45,
+    "fps": 20,
+    "duration": 2.25,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Native OrbitControls wheel dolly, no re-simulated apparatus"
+  },
+  {
+    "path": "raw/17-inside-out",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Native error snapshot: inside splint extinguished"
+  },
+  {
+    "path": "raw/18-mouth-burning",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Same native model instant: mouth splint still burning"
+  },
+  {
+    "path": "raw/19-funnel-leak",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Native unsealed funnel snapshot; paths are auxiliary"
+  },
+  {
+    "path": "raw/20-funnel-correct",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Native sealed-funnel comparison at same model time"
+  },
+  {
+    "path": "raw/extra-0",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "瓶塞未塞紧 independent native error snapshot"
+  },
+  {
+    "path": "raw/extra-1",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "出气管浸入反应液 independent native error snapshot"
+  },
+  {
+    "path": "raw/extra-2",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "收集导管靠近瓶口 independent native error snapshot"
+  },
+  {
+    "path": "raw/extra-3",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "集气瓶倒置 independent native error snapshot"
+  },
+  {
+    "path": "raw/extra-4",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "过早在瓶口验满 independent native error snapshot"
+  },
+  {
+    "path": "raw/extra-5",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "反应时夹闭出口 independent native error snapshot"
+  },
+  {
+    "path": "raw/21-outro",
+    "kind": "original-app still; deliberate ResultFreeze only",
+    "frames": 1,
+    "fps": 1,
+    "duration": 0,
+    "width": 1080,
+    "height": 810,
+    "status": "native_capture_verified",
+    "actualObservedPhenomenon": "Completed native apparatus after valid mouth test and glass cover"
   }
 ]

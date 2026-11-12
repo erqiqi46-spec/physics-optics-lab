@@ -1,54 +1,46 @@
-# 智用实验室 · CO₂视频制作工程 / 第1批审核交付
+# 智用实验室 · 二氧化碳3D全景实验教学视频
 
-**不是完整成片。** 本包包含v3来源审核、原生采集证据、补录清单、Remotion技术样板、四条样板音轨、口播草稿和16秒技术样片。关键录制素材不完整，因此遵照任务停机规则，没有制作或宣称通过150秒影片。
+本工程从未改动的v3 HTML自动操作并采集原生画面，剪辑为约159秒的9:16中文配音视频。最终文件和验收结果见 `output/`、`reports/film-final-validation.json` 和 `reports/video_quality_report.md`。历史16秒技术样片仅保留为早期记录。
 
-先看：
+## 成片与附件
 
-- `output/co2_capture_technical_sample.mp4`：540×960、30fps、H.264/AAC，16秒。仅2秒为实际运动采集，其余是明确标注的关键帧讲解。不是整套实验演示。
-- `reports/stage01_audit.md`：源码、运行证据、未实现项、采集问题与停机结论。
-- `reports/material_inventory.csv`：素材清单。capture完整与电影素材验收是两个概念。
-- `reports/missing_shots.md`：必须补齐的镜头。
-- `reports/science_review.md`：科学表述边界。
-- `reports/sample-validation.json`：只针对16秒技术样片的自动验证。
-- `output/narration-draft.md/mp3`：约146秒中文口播草稿，尚未锁定镜头和音画时序。
-- `output/timeline-draft.json`：正式影片草稿，缺失sourceFile/sourceIn/sourceOut故意留null，不可直接渲染。
-- `sample-timeline.json`、`output/timeline.json`：技术样片配置，非完整影片时间轴。
+- `output/co2_science_video_1080x1920.mp4`：1080×1920、30fps、H.264/AAC，包含同步字幕。
+- `output/co2_video_preview.mp4`：手机预览版。
+- `output/co2_science_subtitles.srt`、`output/narration-final.md`：可修改的字幕、分镜与口播。
+- `public/audio/film/`：旁白、原创背景音乐、实验拟音、界面音效四条独立WAV。
+- `timeline.json`：全部镜头的素材、时序、取景、配音、知识点配置。
+- `source/co2-lab-v3.html`：可离线双击打开的原课件副本；影片没有更改其反应模型。
+- `raw/capture-manifest.json`：原生素材来源、时间与采集记录。
 
-## 素材真实性
+## 重新渲染
 
-`source/co2-lab-v3.html`是原v3的不可变副本，SHA256见审核结果。采集仅通过原按钮和仿真时钟推进；外观CSS用于隐藏外围UI并调整取景尺寸，没有另写气泡、浑浊或火焰物理。`raw/`保留实际帧和探测视频，每个目录附metadata；中断文件与半段素材已标明不可用。采集失败的底层原因尚未确定，不将它归咎于某个未经证实的模型或设备问题。
-
-脚本已修补时钟超时与错误示范无正常计时面板的读取保护；**修补后的全流程采集尚未重新验收**。不要把脚本存在当作完整采集已通过。
-
-## 复现技术样片
-
-需要Node.js 20+、FFmpeg；从本目录执行：
+渲染脚本对完整Chromium显式指定 `chromeMode: chrome-for-testing`，并使用单工作器，避免旧headless模式下的合成缺失。完整素材包含在交付压缩包内。仅克隆Git仓库时，应先下载完整工程包并恢复 `public/media`、`public/audio`。需要Node.js20+、FFmpeg，Python工具另需numpy、Pillow、fontTools。
 
 ```sh
+cd co2-video
 npm ci
 npx playwright install chromium
 npm run render:preview
+# 检查预览并在 reports/preview-review.json 记录真实审核结果后：
+npm run render:final
+python3 scripts/master-film.py
+python3 scripts/validate-film.py final
 ```
 
-这会渲染`output/co2_capture_technical_preview.mp4`。审核交付的`co2_capture_technical_sample.mp4`另外经过FFmpeg响度处理。`npm run render:final`会明确拒绝，因为关键素材未齐，工程当前只有技术样片Composition。
+配音已经包含在工程中；重新生成合成配音才需要联网。素材与字体均为本地文件，渲染本身不依赖CDN。完整工程无需安装依赖即可观看已有MP4；交互课件是另外的HTML文件，MP4本身不具备点击操作功能。
 
-`src/components.tsx`提供CameraZoom、CameraPan、FocusHighlight、ScienceCallout、BeforeAfter、ErrorCompare、KnowledgeCaption、EquationReveal等基础模板；配置从JSON读取。样片实际运行了运镜、高亮、知识卡、公式、字幕、品牌和四音轨，未使用的对比组件不声称已完成视频验收。
+## 采集与可复用模板
 
-## 补录和资产处理
+从仓库父目录依次执行 `node co2-video/scripts/capture-takes.mjs lime`（以及 collection、splint、errors、intro、outro），只使用原网页控件与离线时钟推进。早期素材的发生器、加酸部分已随包提供。`audit-complete.py`检测原生帧尺寸与空白。`prepare-film.mjs`生成素材代理、字幕和时间轴；`prepare-film-audio.py`生成四条混音前音轨。
 
-采集脚本当前按含`co2-video`目录的父目录运行。Python可使用独立虚拟环境，依赖见requirements.txt。素材中途失败应保留证据并停止后续，不得补造完整实验。
+`src/Film.tsx`使用JSON驱动的运镜、聚焦框、原图前后对照、错误对照、公式、结构图、品牌与字幕。通用组件在 `src/components.tsx`。素材画面按4:3保留比例，双栏对照进行裁切而不拉伸。
 
-```sh
-node co2-video/scripts/capture-source.mjs
-python co2-video/scripts/audit-stage01.py
-```
+## 真实性与限制
 
-录到全部关键素材后，先逐帧审核前/中/后与清晰度，再根据真实sourceIn/sourceOut和合成旁白句边界锁定正式timeline，之后按制作任务逐批验收。
-
-## 音轨和授权来源
-
-四条独立WAV在`public/audio/sample-narration.wav`、`sample-music.wav`、`sample-experiment.wav`、`sample-ui.wav`；JSON支持音量、淡入淡出、静音与旁白区间压低音乐。样板配乐和拟音为本项目程序生成，无第三方音乐或采样，生成脚本一并提供。标准中文合成声线非真人模仿。CJK子集字体附许可证。音效为后期拟音，不是实验现场声音。
-
-## 后续批次状态
-
-第1批：审核报告完成，原始电影素材门槛未通过。第2批正式时间轴：未锁定。第3–4批：仅通用代码与技术样板，非正式镜头验收。第5–7批：完整粗剪、精剪、最终1080×1920成片与教学六问验收均未完成。
+- 原生素材1080×810，离线逐帧20fps，成片30fps通过重复帧编码；不宣称原生实时30fps。
+- 装药、液柱建立和木条测试在原模型中是状态切换；影片明确标记分段与讲解停顿，未伪造连续倾倒或燃烧物理。
+- CO₂无色。气体粒子、泄漏路径与后加结构图均为教学辅助，非真实颜色、浓度或流场测量。
+- 影片不是全过程一镜到底：包含真实操作所得的关键画面、动态现象、独立错误快照和讲解停顿。
+- 3D器材沿用v3程序化模型；画质受原资产限制，不宣称达到最终电影级品质。
+- 旁白为标准中文合成声线；音乐与拟音由本项目生成，非实录声音。字体许可证见public/fonts。
+- 自动测试和本次画面审核不能替代教师实课试用、学习效果研究及多设备音响试听。

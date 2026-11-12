@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "task": "errors",
+  "events": [
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "切换画质"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "易错示范"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "集气瓶特写"
+    },
+    {
+      "shot": "17-inside-out",
+      "frame": 0,
+      "control": "同一时刻：把木条移到瓶口"
+    },
+    {
+      "shot": "18-mouth-burning",
+      "frame": 0,
+      "control": "发生器特写"
+    },
+    {
+      "shot": "19-funnel-leak",
+      "frame": 0,
+      "control": "查看规范操作对照"
+    }
+  ],
+  "errors": [],
+  "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8"
+}

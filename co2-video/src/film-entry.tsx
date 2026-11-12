@@ -1,0 +1,1 @@
+import React from 'react';import {registerRoot,Composition} from 'remotion';import Film from './Film';import config from '../timeline.json';registerRoot(()=> <Composition id="Co2ScienceFilm" component={Film} width={config.width} height={config.height} fps={config.fps} durationInFrames={config.durationInFrames}/>);

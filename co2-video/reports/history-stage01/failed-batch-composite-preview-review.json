@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "originalDisplacedFrames": [
+    3,
+    5,
+    7,
+    387,
+    394,
+    414,
+    415,
+    564
+  ],
+  "repairedFromSameComposition": true,
+  "remainingDisplacedFrames": [],
+  "method": "Stable page-footer audit on every decoded frame; isolated displacement rerendered as lossless PNG, then checked again"
+}

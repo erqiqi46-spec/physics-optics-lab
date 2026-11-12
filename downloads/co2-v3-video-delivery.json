@@ -1,0 +1,22 @@
+{
+  "co2-v3-complete-video-project.zip": {
+    "bytes": 69904141,
+    "sha256": "d57ac8f4740e4442df8b79141f050e90e3e9dda14e85a32c8dd6bfc5ff5c783e"
+  },
+  "co2-v3-complete-teaching-video.mp4": {
+    "bytes": 11049488,
+    "sha256": "750aa6eb215c91b434e73963a4e5cf8d644e8213350be10796d3c93081e57803"
+  },
+  "co2-v3-complete-preview.mp4": {
+    "bytes": 6854393,
+    "sha256": "d4416d1aded4c1fa188c871cba5b1a42792f1dd006b282b051163904dbe32156"
+  },
+  "co2-v3-narration.md": {
+    "bytes": 3776,
+    "sha256": "326d63e5d250c40fb8d8a0206b38e18c8603a0204fe6f07e6fc08d0236b35792"
+  },
+  "co2-v3-subtitles.srt": {
+    "bytes": 3414,
+    "sha256": "fbe64cce9e2e06c64d69b97b52c69f5bae3a9b9ee6acaea021e3cd93f072cdde"
+  }
+}

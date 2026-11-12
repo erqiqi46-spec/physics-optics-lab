@@ -1,0 +1,84 @@
+{
+  "durationSeconds": 159.06666666666666,
+  "shots": [
+    {
+      "id": "opening",
+      "startFrame": 0,
+      "endFrame": 326
+    },
+    {
+      "id": "airtightness",
+      "startFrame": 326,
+      "endFrame": 747,
+      "attention": {
+        "startFrame": 80,
+        "endFrame": 94,
+        "cameraReadyFrame": 18
+      }
+    },
+    {
+      "id": "reagents",
+      "startFrame": 747,
+      "endFrame": 1131
+    },
+    {
+      "id": "bubbles",
+      "startFrame": 1131,
+      "endFrame": 1565,
+      "attention": {
+        "startFrame": 25,
+        "endFrame": 42,
+        "cameraReadyFrame": 18
+      },
+      "phenomenonOnsetFrame": 50
+    },
+    {
+      "id": "limewater",
+      "startFrame": 1565,
+      "endFrame": 2123,
+      "attention": {
+        "startFrame": 110,
+        "endFrame": 129,
+        "cameraReadyFrame": 18
+      },
+      "phenomenonOnsetFrame": 137
+    },
+    {
+      "id": "collection",
+      "startFrame": 2123,
+      "endFrame": 2567
+    },
+    {
+      "id": "fullness",
+      "startFrame": 2567,
+      "endFrame": 3050,
+      "phenomenonOnsetFrame": 235
+    },
+    {
+      "id": "inside_error",
+      "startFrame": 3050,
+      "endFrame": 3434
+    },
+    {
+      "id": "funnel_error",
+      "startFrame": 3434,
+      "endFrame": 3876
+    },
+    {
+      "id": "records",
+      "startFrame": 3876,
+      "endFrame": 4163
+    },
+    {
+      "id": "summary",
+      "startFrame": 4163,
+      "endFrame": 4542
+    },
+    {
+      "id": "outro",
+      "startFrame": 4542,
+      "endFrame": 4772
+    }
+  ],
+  "subtitleChunks": 41
+}

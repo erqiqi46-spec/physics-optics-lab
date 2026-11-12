@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "task": "intro",
+  "events": [
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "切换画质"
+    },
+    {
+      "shot": null,
+      "frame": 0,
+      "control": "全景"
+    }
+  ],
+  "errors": [],
+  "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8"
+}

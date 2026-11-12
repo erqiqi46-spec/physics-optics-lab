@@ -1,0 +1,183 @@
+{
+  "passed": true,
+  "sourceSha256": "8e2f037dffb698b4c891d1dcb1b348b61acb2b295f210a4cc280908771f172a8",
+  "sourceUnchanged": true,
+  "clips": [
+    {
+      "id": "02-column-before",
+      "frames": 1,
+      "minStddev": 37.611629405439466,
+      "nonblank": true
+    },
+    {
+      "id": "03-column-after",
+      "frames": 1,
+      "minStddev": 44.41750274963224,
+      "nonblank": true
+    },
+    {
+      "id": "04-empty-open",
+      "frames": 1,
+      "minStddev": 36.528421737278755,
+      "nonblank": true
+    },
+    {
+      "id": "05-marble-loaded",
+      "frames": 1,
+      "minStddev": 42.57293535380831,
+      "nonblank": true
+    },
+    {
+      "id": "06-before-acid",
+      "frames": 1,
+      "minStddev": 43.49076620374911,
+      "nonblank": true
+    },
+    {
+      "id": "07-bubble-onset",
+      "frames": 70,
+      "minStddev": 43.40062723680048,
+      "nonblank": true
+    },
+    {
+      "id": "08-lime-clear",
+      "frames": 1,
+      "minStddev": 47.724363305716686,
+      "nonblank": true
+    },
+    {
+      "id": "09-lime-transition",
+      "frames": 64,
+      "minStddev": 47.628619929829064,
+      "nonblank": true
+    },
+    {
+      "id": "10-lime-cloudy",
+      "frames": 1,
+      "minStddev": 56.66765379093918,
+      "nonblank": true
+    },
+    {
+      "id": "11-collection",
+      "frames": 50,
+      "minStddev": 47.68917151030482,
+      "nonblank": true
+    },
+    {
+      "id": "12-splint-burning",
+      "frames": 16,
+      "minStddev": 48.09057323562848,
+      "nonblank": true
+    },
+    {
+      "id": "13-splint-extinguish",
+      "frames": 20,
+      "minStddev": 47.60209349443348,
+      "nonblank": true
+    },
+    {
+      "id": "14-fullness",
+      "frames": 1,
+      "minStddev": 47.71365229486358,
+      "nonblank": true
+    },
+    {
+      "id": "15-covered",
+      "frames": 1,
+      "minStddev": 46.991787255622434,
+      "nonblank": true
+    },
+    {
+      "id": "16-records",
+      "frames": 1,
+      "minStddev": 15.173702358686668,
+      "nonblank": true
+    },
+    {
+      "id": "01-establish",
+      "frames": 1,
+      "minStddev": 31.853041961699436,
+      "nonblank": true
+    },
+    {
+      "id": "01-opening-dolly",
+      "frames": 45,
+      "minStddev": 31.77075583040687,
+      "nonblank": true
+    },
+    {
+      "id": "17-inside-out",
+      "frames": 1,
+      "minStddev": 37.05002309232696,
+      "nonblank": true
+    },
+    {
+      "id": "18-mouth-burning",
+      "frames": 1,
+      "minStddev": 37.53099230503306,
+      "nonblank": true
+    },
+    {
+      "id": "19-funnel-leak",
+      "frames": 1,
+      "minStddev": 47.641505803822035,
+      "nonblank": true
+    },
+    {
+      "id": "20-funnel-correct",
+      "frames": 1,
+      "minStddev": 47.655744951044575,
+      "nonblank": true
+    },
+    {
+      "id": "extra-0",
+      "frames": 1,
+      "minStddev": 33.973882314778926,
+      "nonblank": true
+    },
+    {
+      "id": "extra-1",
+      "frames": 1,
+      "minStddev": 34.04663080623989,
+      "nonblank": true
+    },
+    {
+      "id": "extra-2",
+      "frames": 1,
+      "minStddev": 33.77665138458614,
+      "nonblank": true
+    },
+    {
+      "id": "extra-3",
+      "frames": 1,
+      "minStddev": 34.56944359771121,
+      "nonblank": true
+    },
+    {
+      "id": "extra-4",
+      "frames": 1,
+      "minStddev": 34.17185244957778,
+      "nonblank": true
+    },
+    {
+      "id": "extra-5",
+      "frames": 1,
+      "minStddev": 33.99936059403286,
+      "nonblank": true
+    },
+    {
+      "id": "21-outro",
+      "frames": 1,
+      "minStddev": 35.749276911154936,
+      "nonblank": true
+    }
+  ],
+  "nativeFps": 20,
+  "outputFps": 30,
+  "method": "Original app, clock-stepped native rendering; no invented reaction animation",
+  "limitations": [
+    "Native20fps is encoded at30fps with repeated frames",
+    "Pouring and splint result are native discrete state changes",
+    "Holds are labeled explanation pauses"
+  ]
+}
