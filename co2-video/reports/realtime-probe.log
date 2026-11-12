@@ -1,0 +1,16 @@
+PROBE_REACTION_STARTED 1794477121471
+TIME_BEFORE 暂停虚拟时间
+观察 5 秒（虚拟）
+推进方式
+自动 1×
+自动 2×
+手动观察
+4s 模型时间，非真实速率预测
+TIME_AFTER 暂停虚拟时间
+观察 5 秒（虚拟）
+推进方式
+自动 1×
+自动 2×
+手动观察
+4s 模型时间，非真实速率预测
+PROBE_FILE /workspace/physics-optics-lab/co2-video/raw/probe2/page@751be149e90c003830d6f3edf2ca471b.webm

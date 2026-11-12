@@ -1,0 +1,161 @@
+[
+  {
+    "id": "opening",
+    "title": "看不见的气体，怎样获得证据？",
+    "chapter": "提出问题",
+    "narration": "一瓶看不见的气体，怎样检验它是不是二氧化碳？又怎样判断，已经收集满了？这里是智用实验室。",
+    "sourceIds": [
+      "01-establish"
+    ],
+    "science": "CO₂无色，身份检验与验满目的不同。",
+    "audioSeconds": 9.792,
+    "audioFile": "audio/voice/opening.mp3"
+  },
+  {
+    "id": "airtightness",
+    "title": "先检查气密性",
+    "chapter": "检查",
+    "narration": "先检查气密性。注意看长颈漏斗里的液柱。在本次检查条件下，液柱维持，说明没有发现明显漏气。产生气泡，不能代替气密性检查。",
+    "sourceIds": [
+      "02-column-before",
+      "03-column-after"
+    ],
+    "science": "液柱法为课件抽象，不能保证改变装置后永远不漏气。",
+    "audioSeconds": 12.96,
+    "audioFile": "audio/voice/airtightness.mp3"
+  },
+  {
+    "id": "reagents",
+    "title": "先固体，后液体",
+    "chapter": "加药",
+    "narration": "排出检查水，打开气路。先装入大理石，复装密封，再经长颈漏斗加入稀盐酸。漏斗下端浸入反应液，形成液封。",
+    "sourceIds": [
+      "04-empty-open",
+      "05-marble-loaded",
+      "06-before-acid"
+    ],
+    "science": "课件为点击后状态改变，不能伪装连续倾倒动画。",
+    "audioSeconds": 11.736,
+    "audioFile": "audio/voice/reagents.mp3"
+  },
+  {
+    "id": "bubbles",
+    "title": "冒泡，还不能确认气体身份",
+    "chapter": "制取",
+    "narration": "注意看，固体表面的气泡出现了。大理石中的碳酸钙，与盐酸反应放出气体。刚开始导出的气体还含空气。仅凭冒泡，不能确认二氧化碳的身份。",
+    "sourceIds": [
+      "07-bubble-onset"
+    ],
+    "equation": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂↑",
+    "science": "气泡不是身份检验；初始发生器有空气。",
+    "audioSeconds": 13.392,
+    "audioFile": "audio/voice/bubbles.mp3"
+  },
+  {
+    "id": "limewater",
+    "title": "澄清 → 白色浑浊",
+    "chapter": "检验",
+    "narration": "把气体通入新鲜的澄清石灰水。注意看，透明的液体逐渐变白、变浑浊。这是生成了白色碳酸钙沉淀，是本实验检验二氧化碳的证据。过量通气还可能使浑浊消失，要看完整过程。",
+    "sourceIds": [
+      "08-lime-clear",
+      "09-lime-transition",
+      "10-lime-cloudy"
+    ],
+    "equation": "CO₂ + Ca(OH)₂ → CaCO₃↓ + H₂O",
+    "science": "浑浊来自沉淀，不是CO₂有色；过量后变化为拓展。",
+    "audioSeconds": 17.52,
+    "audioFile": "audio/voice/limewater.mp3"
+  },
+  {
+    "id": "collection",
+    "title": "瓶口朝上，导管近瓶底",
+    "chapter": "收集",
+    "narration": "二氧化碳的密度比空气大。集气瓶口朝上，导管接近瓶底，让空气从瓶口排出。彩色点只是气体分布的教学辅助示意，二氧化碳本身没有颜色。",
+    "sourceIds": [
+      "11-collection"
+    ],
+    "auxiliary": true,
+    "science": "通常条件下向上排空气；彩色气体分布必须标示教学辅助。",
+    "audioSeconds": 13.728,
+    "audioFile": "audio/voice/collection.mp3"
+  },
+  {
+    "id": "fullness",
+    "title": "验满，木条放在瓶口",
+    "chapter": "验满",
+    "narration": "怎样验满？把燃着木条放在瓶口。仍然燃烧，就继续规范收集后再测。木条熄灭，才出现本次验满现象。这不等于百分之百纯气体，也不能唯一确定气体身份。",
+    "sourceIds": [
+      "12-splint-burning",
+      "13-splint-extinguish",
+      "14-fullness"
+    ],
+    "science": "离散测试更新，必须标注继续收集后再次测试，不宣称连续燃烧模型。",
+    "audioSeconds": 15.048,
+    "audioFile": "audio/voice/fullness.mp3"
+  },
+  {
+    "id": "inside_error",
+    "title": "瓶内熄灭 ≠ 收集满",
+    "chapter": "错误对照",
+    "narration": "这个操作很容易错。木条伸入瓶内，已经熄灭；同一模型时刻，放到瓶口却仍能燃烧。瓶内局部积聚，不等于已经收集满。",
+    "sourceIds": [
+      "17-inside-out",
+      "18-mouth-burning"
+    ],
+    "auxiliary": true,
+    "science": "同一模型时刻两个测试位置，原生独立示范快照。",
+    "audioSeconds": 11.736,
+    "audioFile": "audio/voice/inside_error.mp3"
+  },
+  {
+    "id": "funnel_error",
+    "title": "漏斗必须形成液封",
+    "chapter": "错误对照",
+    "narration": "如果漏斗下端没有浸入液体，反应仍可能冒泡，但气体会从漏斗逸出，收集效果变差。注意，漏斗需要液封，发生器出气管下端则应露出液面。",
+    "sourceIds": [
+      "19-funnel-leak",
+      "20-funnel-correct"
+    ],
+    "auxiliary": true,
+    "science": "同等模型时长的规范对照；虚线是路径示意，不是可见CO₂。",
+    "audioSeconds": 13.656,
+    "audioFile": "audio/voice/funnel_error.mp3"
+  },
+  {
+    "id": "records",
+    "title": "把现象，记录成证据",
+    "chapter": "记录",
+    "narration": "移开导管，盖好玻璃片。记下两组证据：石灰水用于检验身份，瓶口木条用于验满。",
+    "sourceIds": [
+      "15-covered",
+      "16-records"
+    ],
+    "science": "玻璃片不是气密瓶塞，两组观察独立。",
+    "audioSeconds": 8.496,
+    "audioFile": "audio/voice/records.mp3"
+  },
+  {
+    "id": "summary",
+    "title": "检验身份 · 规范收集 · 瓶口验满",
+    "chapter": "总结",
+    "narration": "先检查，再加药。看清现象，再作结论。这是理想化教学模型，不能把仿真时间、气体分布，当作真实测量数据。",
+    "sourceIds": [
+      "01-establish"
+    ],
+    "science": "模型近似边界必须明确。",
+    "audioSeconds": 11.568,
+    "audioFile": "audio/voice/summary.mp3"
+  },
+  {
+    "id": "outro",
+    "title": "让知识真正动起来",
+    "chapter": "智用实验室",
+    "narration": "智用实验室，让知识真正动起来。真实实验，请在教师指导下进行。",
+    "sourceIds": [
+      "01-establish"
+    ],
+    "science": "品牌与真实实验边界。",
+    "audioSeconds": 6.6,
+    "audioFile": "audio/voice/outro.mp3"
+  }
+]

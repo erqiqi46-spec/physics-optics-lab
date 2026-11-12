@@ -94,3 +94,11 @@ Playwright 默认使用已经启动的 5173 端口服务器；配置了无头 Ch
 器材已搭好，无需学生组装。点击三维高亮操作点完成检查气密性、装固体、加酸、石灰水检验、收集、瓶口验满、盖片与记录。可旋转缩放与切换特写。v3增强气泡、白色浑浊与木条火焰，增加同步现象观察窗、高清/流畅画质切换，改善玻璃反射与软管走线。附八类独立错误示范、原因提示和规范对照，返回时保留原实验进度。
 
 [使用说明](chemistry/README.md) · [本次检查报告](chemistry/TEST-REPORT.md) · [科学边界与局限](chemistry/SCIENCE-AND-LIMITATIONS.md)。程序化器材为临时资产，气体分布为定性教学近似。原凸透镜实验保留。
+
+## 二氧化碳视频制作 · 第1批审核（非完整成片）
+
+- [16秒采集技术样片 MP4](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/co2-video-stage01-sample.mp4)
+- [审核资料、Remotion样板、已采集原始素材与口播草稿](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/co2-video-stage01-review.zip)
+- [约146秒口播配音草稿（未锁定正式镜头）](https://raw.githubusercontent.com/erqiqi46-spec/physics-optics-lab/main/downloads/co2-video-narration-draft.mp3)
+
+技术样片只包含已成功采集的气泡片段及明确标注的关键帧讲解，不是150秒完整教学片。原始补录在石灰水变化中断，完整关键镜头未齐，按任务停机规则暂停后续批次。[审核报告](co2-video/reports/stage01_audit.md) · [补录清单](co2-video/reports/missing_shots.md) · [科学审核](co2-video/reports/science_review.md)。

@@ -1,0 +1,11 @@
+STILL 01-establish
+STILL 02-column-before
+STILL 03-column-after
+STILL 04-empty-open
+STILL 05-marble-loaded
+STILL 06-before-acid
+CAPTURE 07-bubble-onset 20
+CAPTURE 07-bubble-onset 40
+CAPTURE 07-bubble-onset 60
+STILL 08-lime-clear
+CAPTURE 09-lime-transition 20

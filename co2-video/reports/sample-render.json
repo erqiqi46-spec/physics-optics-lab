@@ -1,0 +1,21 @@
+{
+  "status": "TECHNICAL_SAMPLE_NOT_COMPLETE_LESSON",
+  "composition": {
+    "id": "Co2TechnicalSample",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationInFrames": 480,
+    "props": {},
+    "defaultProps": {},
+    "defaultCodec": null,
+    "defaultOutName": null,
+    "defaultVideoImageFormat": null,
+    "defaultPixelFormat": null,
+    "defaultProResProfile": null,
+    "defaultSampleRate": null
+  },
+  "elapsedSeconds": 60.46,
+  "frames": 480,
+  "scale": 0.5
+}

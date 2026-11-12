@@ -1,0 +1,7 @@
+执行工具返回的消息（不同于HTML应用日志）：
+write_stdin failed: Unified exec process failed: exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 45s
+
+应用日志最后记录：CAPTURE 09-lime-transition 20。
+实际磁盘最后保存到00030.jpg，共31帧；原计划90帧。
+之后检查采集进程4994为Z（已退出/僵尸状态）。没有获得可验证的正常退出和完整镜头清单。
+底层原因未确认，不能将其标记为课件科学计算失败，也不能将半段素材标为电影素材验收通过。

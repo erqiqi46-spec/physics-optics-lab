@@ -1,0 +1,14 @@
+﻿path,kind,frames,fps,duration,width,height,status,actualObservedPhenomenon
+raw/01-establish,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,装置预装全景
+raw/02-column-before,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,检查前：发生器与长颈漏斗
+raw/03-column-after,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,液柱维持，检查通过；课件液柱建立是状态切换
+raw/04-empty-open,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,排水开塞后、装固体前
+raw/05-marble-loaded,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,大理石加入后，非连续投料动画
+raw/06-before-acid,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,加酸前，瓶塞已复装
+raw/07-bubble-onset,original_app_frame_sequence,70,20,3.5,1080,810,captured_complete_edit_review_pending,真实按钮加酸前后，气泡出现
+raw/08-lime-clear,original_app_still,1,1,,1080,810,captured_complete_edit_review_pending,新鲜石灰水，仿真时钟暂停以建立观察前镜头
+raw/09-lime-transition,original_app_frame_sequence,31,,,1080,810,incomplete_do_not_use,partial limewater capture; full transition not verified
+raw/clock-probe,original_app_frame_sequence,40,20,2.0,1080,810,complete_technical_probe_only,2s clock-stepped bubble motion probe
+raw/probe/page@6099045cd053dbd675cd4de8ca0b77df.webm,realtime_browser_recording,,25/1,23.28,1440,1080,probe_only_not_edit_approved,browser recording technical probe; timings and cadence not edit-approved
+raw/probe/page@b8efbc00e92af5bf8e72d1df504f1ea6.webm,realtime_browser_recording,,25/1,,1440,1080,invalid_incomplete_container,browser recording technical probe; timings and cadence not edit-approved
+raw/probe2/page@751be149e90c003830d6f3edf2ca471b.webm,realtime_browser_recording,,25/1,15.12,1440,1080,probe_only_not_edit_approved,browser recording technical probe; timings and cadence not edit-approved

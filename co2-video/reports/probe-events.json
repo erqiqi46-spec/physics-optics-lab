@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "events": [
+    {
+      "name": "切换画质",
+      "wallMs": 1794476780268
+    },
+    {
+      "name": "检查气密性",
+      "wallMs": 1794476780318
+    },
+    {
+      "name": "观察 5 秒（虚拟）",
+      "wallMs": 1794476780349
+    },
+    {
+      "name": "继续：装入大理石",
+      "wallMs": 1794476780374
+    },
+    {
+      "name": "点击大理石盘，加入固体",
+      "wallMs": 1794476780386
+    },
+    {
+      "name": "复塞，进入加液",
+      "wallMs": 1794476780399
+    },
+    {
+      "name": "发生器特写",
+      "wallMs": 1794476780429
+    },
+    {
+      "name": "点击试剂瓶，加入稀盐酸",
+      "wallMs": 1794476780454
+    }
+  ],
+  "feedback": "反应立即开始\n\n观察固体表面的气泡，但有气泡不等于已正确收集。",
+  "sourceHash": "recorded from unmodified v3 bundle; presentation CSS only"
+}

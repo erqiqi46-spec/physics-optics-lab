@@ -1,0 +1,104 @@
+{
+  "status": "TECHNICAL_SAMPLE_ONLY_NOT_COMPLETE_LESSON",
+  "brand": "智用实验室",
+  "slogan": "让知识真正动起来",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 480,
+  "sourceFile": "media/clock-probe.mp4",
+  "sourceFps": 20,
+  "sourceIn": 0,
+  "sourceOut": 2,
+  "liveStartFrame": 60,
+  "liveEndFrame": 120,
+  "equationStartFrame": 180,
+  "title": "气泡观察",
+  "badge": "采集技术样片 · 非完整成片",
+  "knowledgeTitle": "气泡 ≠ 已确认气体身份",
+  "knowledgeText": "观察到放气过程，还需要进一步检验证据。",
+  "equation": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂↑",
+  "subtitles": [
+    {
+      "start": 1.1,
+      "end": 5.653,
+      "text": "这是从原始三维课件逐帧采集的气泡观察片段。"
+    },
+    {
+      "start": 5.663,
+      "end": 10.221,
+      "text": "气泡说明有气体产生，但不能单独确定气体身份。"
+    },
+    {
+      "start": 10.231,
+      "end": 14.317,
+      "text": "这是采集技术样片，还不是完整实验视频。"
+    }
+  ],
+  "camera": {
+    "centerX": 0.5,
+    "centerY": 0.5,
+    "scaleStart": 1,
+    "scaleEnd": 1.035,
+    "startFrame": 0,
+    "endFrame": 30,
+    "holdFrames": 450,
+    "focusRect": {
+      "x": 0.36,
+      "y": 0.6,
+      "width": 0.29,
+      "height": 0.31
+    },
+    "easing": "smoothstep"
+  },
+  "audioTracks": [
+    {
+      "name": "Narration",
+      "src": "audio/sample-narration.wav",
+      "gain": 1,
+      "muted": false,
+      "fadeInFrames": 12,
+      "fadeOutFrames": 24,
+      "duckDuringNarration": false,
+      "duckGain": 0.5,
+      "duckStartFrame": 30,
+      "duckEndFrame": 440
+    },
+    {
+      "name": "Background Music",
+      "src": "audio/sample-music.wav",
+      "gain": 1,
+      "muted": false,
+      "fadeInFrames": 12,
+      "fadeOutFrames": 24,
+      "duckDuringNarration": true,
+      "duckGain": 0.5,
+      "duckStartFrame": 30,
+      "duckEndFrame": 440
+    },
+    {
+      "name": "Experiment SFX",
+      "src": "audio/sample-experiment.wav",
+      "gain": 1,
+      "muted": false,
+      "fadeInFrames": 12,
+      "fadeOutFrames": 24,
+      "duckDuringNarration": false,
+      "duckGain": 0.5,
+      "duckStartFrame": 30,
+      "duckEndFrame": 440
+    },
+    {
+      "name": "UI SFX",
+      "src": "audio/sample-ui.wav",
+      "gain": 1,
+      "muted": false,
+      "fadeInFrames": 12,
+      "fadeOutFrames": 24,
+      "duckDuringNarration": false,
+      "duckGain": 0.5,
+      "duckStartFrame": 30,
+      "duckEndFrame": 440
+    }
+  ]
+}
