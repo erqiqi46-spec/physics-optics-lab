@@ -13,7 +13,7 @@
 ## 实际验证结果
 
 - Vitest：45/45项通过；物理网络、极端参数、反接/并联/短接、机械边界、模式隔离、轨迹评分、试触真实闭合和安全归位。
-- Playwright：6/6类案例在同一构建上逐案通过；在真实Chromium、file://、context.setOffline(true)运行，实际按钮/鼠标/触摸，没有写状态测试接口。原始JSON与逐案操作快照在evidence/，trace另包EXP15-traces-part1.zip、part2.zip，实际视频另包EXP15-browser-replays.zip；均从evidence/replay/已验证文件打包。
+- Playwright：6/6类案例在同一构建上逐案通过；在真实Chromium、file://、context.setOffline(true)运行，实际按钮/鼠标/触摸，没有写状态测试接口。原始JSON与逐案操作快照在evidence/，trace另包EXP15-traces-part1.zip至part5.zip，实际视频另包EXP15-browser-replays.zip；均从evidence/replay/已验证文件打包。
 - HTML轨迹中的响应体SHA核对一致，未用旧构建冒充最终结果。没有远程CDN和预录动画。
 - 器材GLB：原创细化多部件PBR，41972三角形；结构/有限顶点/命名/尺度验证见src/assets/asset-validation.json。程序化原创资产不是扫描/CAD计量认证。
 
